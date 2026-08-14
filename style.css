@@ -1,221 +1,244 @@
 :root {
-    /* Multi-layered Japandi Palette */
-    --base-bg: #F4F1EA;       /* Warm Linen */
-    --paper-light: #FAF9F6;   /* Rice Paper */
-    --paper-depth: #F1EADA;   /* Pressed Oat */
-    --accent-oak: #B59E7D;    /* Warm Oakwood */
-    --accent-clay: #CB997E;   /* Terracotta Accent */
-    --accent-sage: #A5A58D;   /* Organic Sage Detail */
-    --text-rich: #43392F;     /* Deep Cocoa */
-    --glass-border: rgba(255, 255, 255, 0.6);
+    /* Rich Japandi Palette */
+    --linen-bg: #F5F2EC;      /* Background */
+    --paper: #FFFFFF;         /* Card Background */
+    --accent-gold: #C9A05D;   /* Rich Muted Gold */
+    --accent-clay: #B07D62;   /* Terracotta */
+    --deep-forest: #3E4B3E;   /* Replaced the faint sage with a grounded cypress */
+    --text-rich: #3A322B;     /* Deep Coffee */
+    --border-ink: rgba(58, 50, 43, 0.08); /* Soft organic border */
+    --shadow-soft: rgba(181, 158, 125, 0.2);
 }
 
 body {
-    background: radial-gradient(circle at 10% 20%, #F4F1EA 0%, #E9E2D5 100%);
+    background-color: var(--linen-bg);
+    /* Adding a subtle paper grain texture */
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3C/svg%3E");
+    background-attachment: fixed;
     margin: 0;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
     color: var(--text-rich);
-    min-height: 100vh;
 }
 
 .background-wrapper {
     display: flex;
     justify-content: center;
-    padding: 60px 20px;
+    padding: 80px 20px;
 }
 
 .page-container {
     width: 100%;
-    max-width: 800px;
+    max-width: 850px;
 }
 
 /* --- Header Section --- */
 header h1 {
-    font-family: 'Georgia', serif; /* Serif for titles adds family warmth */
-    font-size: 3.2rem;
-    font-weight: normal;
+    font-family: 'Georgia', serif;
+    font-size: 3.8rem;
+    font-weight: bold;
     text-align: center;
     color: var(--text-rich);
     margin-bottom: 5px;
+    letter-spacing: -1px;
 }
 
 .subtitle {
     text-align: center;
-    font-size: 0.9rem;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: var(--accent-sage);
-    margin-bottom: 40px;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    color: var(--accent-clay);
+    margin-bottom: 50px;
 }
 
-/* --- Modern Floating Search --- */
+/* --- Luxury Floating Search --- */
+.search-container {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto 50px auto;
+}
+
 #searchInput {
     width: 100%;
-    padding: 18px 30px;
-    border: 1px solid var(--glass-border);
-    border-radius: 50px;
-    background: rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(10px);
-    font-size: 1rem;
-    box-shadow: 0 10px 30px rgba(181, 158, 125, 0.15);
+    padding: 20px 30px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(15px);
+    font-size: 1.1rem;
+    box-shadow: 0 15px 35px var(--shadow-soft);
     outline: none;
-    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: all 0.4s ease;
+    text-align: center;
 }
 
 #searchInput:focus {
-    background: rgba(255, 255, 255, 0.9);
-    box-shadow: 0 15px 40px rgba(181, 158, 125, 0.25);
+    background: #fff;
+    box-shadow: 0 20px 50px rgba(176, 125, 98, 0.15);
     transform: translateY(-2px);
 }
 
-/* --- Category Tabs (Organic Ceramic Style) --- */
+/* --- Category Navigation --- */
 .category-wrapper {
-    margin: 30px 0;
-    overflow-x: auto;
-    white-space: nowrap;
-    padding: 10px 0;
-    scrollbar-width: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
 }
 
 .tab {
-    display: inline-block;
-    padding: 10px 24px;
-    margin-right: 12px;
+    padding: 10px 20px;
     border-radius: 12px;
-    background: var(--paper-depth);
-    border: 1px solid transparent;
+    background: var(--paper);
+    border: 1px solid var(--border-ink);
     cursor: pointer;
     font-size: 0.85rem;
-    font-weight: 600;
-    transition: all 0.3s;
+    font-weight: bold;
     color: var(--text-rich);
+    transition: 0.3s;
 }
 
 .tab:hover {
-    background: #fff;
-    color: var(--accent-clay);
-    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    border-color: var(--accent-gold);
+    color: var(--accent-gold);
 }
 
 .tab.active {
-    background: var(--text-rich);
+    background: var(--deep-forest);
     color: #fff;
-    box-shadow: 0 8px 20px rgba(67, 57, 47, 0.2);
+    border-color: var(--deep-forest);
 }
 
-/* --- Recipe Card Items --- */
-.recipe-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 20px;
-}
-
+/* --- Recipe Card List --- */
 .recipe-item {
-    background: var(--paper-light);
-    padding: 30px;
-    border-radius: 24px;
-    border: 1px solid var(--glass-border);
-    position: relative;
+    background: var(--paper);
+    padding: 35px;
+    border-radius: 28px;
+    border: 1px solid var(--border-ink);
+    margin-bottom: 20px;
     cursor: pointer;
-    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
-    box-shadow: 0 4px 15px rgba(0,0,0,0.02);
-    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+    position: relative;
 }
 
-/* The hover "pop" effect you requested */
-.recipe-item:hover {
-    transform: scale(1.02) translateY(-5px);
-    box-shadow: 0 25px 50px rgba(181, 158, 125, 0.2);
-    background: #ffffff;
+.recipe-item::after { /* A decorative vertical line to give it character */
+    content: '';
+    position: absolute;
+    left: 10px; top: 20%; bottom: 20%;
+    width: 3px;
+    background: var(--accent-gold);
+    border-radius: 10px;
+    opacity: 0.3;
+    transition: 0.3s;
 }
+
+.recipe-item:hover {
+    transform: scale(1.03) translateY(-10px);
+    box-shadow: 0 30px 60px rgba(58, 50, 43, 0.12);
+}
+
+.recipe-item:hover::after { opacity: 1; }
 
 .recipe-item h3 {
     margin: 0;
     font-family: 'Georgia', serif;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+    font-weight: bold;
 }
 
 .recipe-item p {
-    color: var(--accent-oak);
+    color: var(--accent-clay);
     font-size: 0.8rem;
     font-weight: 700;
-    margin-top: 10px;
+    margin-top: 8px;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
 }
 
-/* --- The Recipe Card Popup (The Masterpiece) --- */
+/* --- The Modern Recipe Card Popup --- */
 .modal {
     display: none;
     position: fixed;
-    z-index: 1000;
+    z-index: 2000;
     left: 0; top: 0; width: 100%; height: 100%;
-    background: rgba(67, 57, 47, 0.15);
-    backdrop-filter: blur(25px); /* Heavy frost effect */
+    background: rgba(58, 50, 43, 0.2);
+    backdrop-filter: blur(25px);
 }
 
 .modal-content {
     background: #FDFCFB;
-    margin: 4vh auto;
-    padding: 50px;
-    width: 90%;
-    max-width: 680px;
+    margin: 5vh auto;
+    padding: 60px;
+    width: 85%;
+    max-width: 700px;
     border-radius: 40px;
-    border: 1px solid #fff;
-    box-shadow: 0 50px 100px rgba(0,0,0,0.12);
+    border: 2px solid white;
+    box-shadow: 0 50px 100px rgba(0,0,0,0.2);
+    position: relative;
     max-height: 85vh;
     overflow-y: auto;
-    position: relative;
 }
 
 .modal-content h1 {
     font-family: 'Georgia', serif;
-    font-size: 2.8rem;
-    margin-bottom: 20px;
-    border-left: 5px solid var(--accent-clay); /* Organic pop of color */
-    padding-left: 20px;
+    font-size: 3rem;
+    color: var(--text-rich);
+    margin-bottom: 30px;
 }
 
 .section-label {
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: 0.75rem;
-    letter-spacing: 2px;
-    color: var(--accent-sage);
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: var(--deep-forest);
     margin-top: 40px;
-    border-bottom: 1px solid var(--paper-depth);
-    padding-bottom: 8px;
+    border-bottom: 2px solid var(--linen-bg);
+    padding-bottom: 5px;
 }
 
 .content-text {
-    font-size: 1.1rem;
+    font-size: 1.15rem;
     line-height: 1.8;
     margin-top: 15px;
 }
 
-.notes-area {
-    background: var(--paper-depth);
-    padding: 25px;
+/* Specifically for list formatting */
+.content-text ul { padding-left: 20px; list-style-type: circle; }
+.content-text ol { padding-left: 20px; }
+.content-text li { margin-bottom: 12px; }
+
+.notes-section {
+    background: #F4F1EA;
+    padding: 30px;
     border-radius: 20px;
-    margin-top: 40px;
-    font-style: italic;
-    font-family: 'Georgia', serif;
+    margin-top: 50px;
+    border-left: 4px solid var(--accent-gold);
 }
 
-.pdf-block {
+.notes-section h4 {
+    margin: 0 0 10px 0;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    color: var(--accent-clay);
+}
+
+.pdf-btn {
     display: block;
-    margin-top: 50px;
-    padding: 18px;
+    width: fit-content;
+    margin: 60px auto 0 auto;
+    padding: 18px 40px;
     background: var(--text-rich);
     color: #fff;
-    text-align: center;
-    border-radius: 15px;
+    border-radius: 50px;
     text-decoration: none;
-    font-weight: 600;
-    transition: all 0.3s;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: 0.4s;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
 }
 
-.pdf-block:hover {
+.pdf-btn:hover {
     background: var(--accent-clay);
-    transform: translateY(-2px);
+    transform: translateY(-3px);
 }
