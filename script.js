@@ -1,11 +1,11 @@
 let allRecipes = [];
 let currentCategory = 'All';
 
-// Load the data
+// Fetch and Setup
 fetch('recipes.json')
-    .then(response => response.json())
+    .then(res => res.json())
     .then(data => {
-        // Standard Japandi Sorting: Always alphabetical
+        // High-end alphabetization
         allRecipes = data.sort((a, b) => a.title.localeCompare(b.title));
         setupCategories();
         displayRecipes(allRecipes);
@@ -13,8 +13,7 @@ fetch('recipes.json')
 
 function setupCategories() {
     const tabsContainer = document.getElementById('categoryTabs');
-    const categories = ['All', ...new Set(allRecipes.map(r => r.category).filter(Boolean))];
-    categories.sort();
+    const categories = ['All', ...new Set(allRecipes.map(r => r.category).filter(Boolean))].sort();
 
     tabsContainer.innerHTML = categories.map(cat => `
         <div class="tab ${cat === 'All' ? 'active' : ''}" onclick="filterByCategory('${cat}', this)">
@@ -23,66 +22,53 @@ function setupCategories() {
     `).join('');
 }
 
-function filterByCategory(category, element) {
-    currentCategory = category;
+function filterByCategory(cat, el) {
+    currentCategory = cat;
     document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
-    element.classList.add('active');
+    el.classList.add('active');
     searchRecipes();
 }
 
 function searchRecipes() {
     const query = document.getElementById('searchInput').value.toLowerCase();
     const filtered = allRecipes.filter(r => {
-        const matchesCategory = (currentCategory === 'All' || r.category === currentCategory);
-        const matchesSearch = (
-            r.title.toLowerCase().includes(query) ||
-            r.ingredients.some(i => i.toLowerCase().includes(query)) ||
-            r.notes.toLowerCase().includes(query)
-        );
-        return matchesCategory && matchesSearch;
+        const matchCat = currentCategory === 'All' || r.category === currentCategory;
+        const matchSearch = r.title.toLowerCase().includes(query) || 
+                            r.ingredients.some(i => i.toLowerCase().includes(query)) ||
+                            r.notes.toLowerCase().includes(query);
+        return matchCat && matchSearch;
     });
     displayRecipes(filtered);
 }
 
-function displayRecipes(recipeArray) {
+function displayRecipes(recipes) {
     const list = document.getElementById('recipeList');
-    list.innerHTML = '';
-    
-    recipeArray.forEach(recipe => {
-        const div = document.createElement('div');
-        div.className = 'recipe-item';
-        div.innerHTML = `<h3>${recipe.title}</h3><p>${recipe.category}</p>`;
-        div.onclick = () => openRecipe(recipe);
-        list.appendChild(div);
-    });
+    list.innerHTML = recipes.map(r => `
+        <div class="recipe-item" onclick="openRecipe('${r.title}')">
+            <h3>${r.title}</h3>
+            <p>${r.category}</p>
+        </div>
+    `).join('');
 }
 
-function openRecipe(recipe) {
+function openRecipe(title) {
+    const recipe = allRecipes.find(r => r.title === title);
     const modal = document.getElementById('recipeModal');
     const body = document.getElementById('modalBody');
     
     body.innerHTML = `
-        <h1 class="recipe-title">${recipe.title}</h1>
-        
+        <h1>${recipe.title}</h1>
         <div class="section-label">Ingredients</div>
         <div class="content-text">
-            <ul style="list-style-type: none; padding: 0;">
-                ${recipe.ingredients.map(i => `<li style="margin-bottom:8px;">— ${i}</li>`).join('')}
-            </ul>
+            ${recipe.ingredients.map(i => `• ${i}<br>`).join('')}
         </div>
-        
-        <div class="section-label">Directions</div>
+        <div class="section-label">Method</div>
         <div class="content-text">
-            <ol style="padding-left: 20px;">
-                ${recipe.directions.map(d => `<li style="margin-bottom:12px;">${d}</li>`).join('')}
-            </ol>
+            ${recipe.directions.map((d, i) => `${i+1}. ${d}<br><br>`).join('')}
         </div>
-        
-        <div class="notes-area content-text">
-            ${recipe.notes}
-        </div>
-        
-        <center><a href="${recipe.pdfLink}" target="_blank" class="pdf-block">Original PDF Scan</a></center>
+        <div class="section-label">Personal Notes</div>
+        <div class="notes-area">${recipe.notes}</div>
+        <a href="${recipe.pdfLink}" target="_blank" class="pdf-block">Original Family Document</a>
     `;
     
     modal.style.display = "block";
@@ -94,4 +80,4 @@ function closeModal() {
     document.body.style.overflow = "auto";
 }
 
-window.onclick = (e) => { if(e.target.id == 'recipeModal') closeModal(); }
+window.onclick = e => { if(e.target.id == 'recipeModal') closeModal(); }
