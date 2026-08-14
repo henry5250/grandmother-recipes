@@ -38,22 +38,31 @@ function openRecipe(recipe) {
     body.innerHTML = `
         <h1 class="recipe-title">${recipe.title}</h1>
         <div class="divider"></div>
-        <h3>Ingredients</h3>
-        <ul class="ingredients-list">
-            ${recipe.ingredients.map(i => `<li>${i}</li>`).join('')}
-        </ul>
-        <h3>Directions</h3>
-        <ol class="directions-list">
-            ${recipe.directions.map(d => `<li>${d}</li>`).join('')}
-        </ol>
-        <div class="notes-area">
-            <strong>Notes:</strong> ${recipe.notes}
+        
+        <div class="section-label">Ingredients</div>
+        <div class="content-text">
+            <ul>
+                ${recipe.ingredients.map(i => `<li>${i}</li>`).join('')}
+            </ul>
         </div>
+        
+        <div class="section-label">Directions</div>
+        <div class="content-text">
+            <ol>
+                ${recipe.directions.map(d => `<li>${d}</li>`).join('')}
+            </ol>
+        </div>
+        
+        <div class="section-label">Notes</div>
+        <div class="notes-area content-text">
+            ${recipe.notes}
+        </div>
+        
         <a href="${recipe.pdfLink}" target="_blank" class="pdf-block">VIEW ORIGINAL PDF SCAN</a>
     `;
     
     modal.style.display = "block";
-    document.body.style.overflow = "hidden"; // Stop scrolling background
+    document.body.style.overflow = "hidden";
 }
 
 function closeModal() {
