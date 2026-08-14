@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "title": "",
-    "category": "Baking / Yeast Breads",
+    "title": "Yeast Rolls And Coffee Cake",
+    "category": "Breads",
     "ingredients": [
       "2 cakes compressed yeast",
       "2 eggs",
@@ -16,23 +16,23 @@
       "Mix in first with a spoon, then with hand.",
       "Add 7 - 7 1/2 cups sifted flour in 2 additions, using the amount necessary to make it easy to handle.",
       "Knead the dough according to directions.",
-      "After second rising, divide dough for desired rolls & coffee cake.",
-      "Round up, cover, & let rest 15 min. so dough is easy to handle.",
-      "Shape doughs, let rise until light (15 to 30 min.), & bake according to directions for each type of roll or coffee cake."
+      "After second rising, divide dough for desired rolls and coffee cake.",
+      "Round up, cover, and let rest 15 minutes so dough is easy to handle.",
+      "Shape doughs, let rise until light (15 to 30 minutes), and bake according to directions for each type of roll or coffee cake."
     ],
     "notes": "The recipe assumes prior steps (likely involving liquid ingredients for the yeast mixture) were performed before the start of this excerpt.",
     "pdfLink": "pdfs/.pdf"
   },
   {
     "id": 2,
-    "title": "13 BEAN SOUP",
-    "category": "Soup",
+    "title": "13 Bean Soup",
+    "category": "Soups",
     "ingredients": [
       "13 Beans (Cow Peas, Black Eyed Peas, Yellow Eyed Peas, Yellow Split Peas, Green Split Peas, Kidney Beans, Pinto Beans, Navy Beans, Cranberry Beans, Black Beans, Red Beans, White Lima Beans, Green Lima Beans, Colored Lima Beans)",
       "Meat (hamhocks or bacon drippings, or substitute meat: beef stock or chicken broth)",
       "Water",
       "Onions",
-      "Tomatoes (16 ounce.)",
+      "Tomatoes (16 ounces)",
       "Celery",
       "Spices to taste"
     ],
@@ -42,7 +42,7 @@
       "Place meat and beans in a 2 quart size pot.",
       "Fill completely with water.",
       "When water comes to a boil, turn stove on medium temperature.",
-      "Add onions, tomatoes (16 oz.), celery, and other spices to taste.",
+      "Add onions, tomatoes (16 ounces), celery, and other spices to taste.",
       "Let simmer one (1) hour and 45 minutes.",
       "Serve as a soup or over rice."
     ],
@@ -51,8 +51,8 @@
   },
   {
     "id": 3,
-    "title": "ACORN SQUASH WITH BAKED APPLES AND PECANS",
-    "category": "Side Dish",
+    "title": "Acorn Squash With Baked Apples And Pecans",
+    "category": "Side Dishes",
     "ingredients": [
       "2 small acorn squash",
       "1 16-18 ounce can sliced pie apples",
@@ -77,8 +77,8 @@
   },
   {
     "id": 4,
-    "title": "ARUGULA AND RED ONION SALAD",
-    "category": "quick and easy",
+    "title": "Arugula And Red Onion Salad",
+    "category": "Salads",
     "ingredients": [
       "1/2 pound arugula leaves, rinsed and dried",
       "1/2 cup chopped red onion",
@@ -90,7 +90,7 @@
     ],
     "directions": [
       "Place chilled arugula, onion and parsley in a chilled flat serving bowl.",
-      "Put vinegar in small bowl and whish in olive oil until well blended.",
+      "Put vinegar in small bowl and whisk in olive oil until well blended.",
       "Add salt and pepper.",
       "Spoon over salad.",
       "Serves 4-6."
@@ -100,17 +100,17 @@
   },
   {
     "id": 5,
-    "title": "ASPARAGUS WITH PROSCIUTTO",
-    "category": "quick and easy collection",
+    "title": "Asparagus With Prosciutto",
+    "category": "Side Dishes",
     "ingredients": [
-      "1\u00bd - 2 pounds medium asparagus spears, trimmed and cooked until fork tender",
+      "1 1/2 - 2 pounds medium asparagus spears, trimmed and cooked until fork tender",
       "2-3 tablespoons butter",
       "2-3 tablespoons lemon juice",
       "2-3 tablespoons minced fresh parsley",
-      "\u00bc teaspoon sea salt",
-      "\u215b teaspoon freshly ground black pepper",
+      "1/4 teaspoon sea salt",
+      "1/8 teaspoon freshly ground black pepper",
       "4 paper-thin slices prosciutto",
-      "1\u00bd - 2 tablespoons minced green onion tops"
+      "1 1/2 - 2 tablespoons minced green onion tops"
     ],
     "directions": [
       "Butter sauce: Melt butter and add lemon juice, parsley, salt and pepper.",
@@ -125,20 +125,20 @@
     "title": "Almond Skillet Cake",
     "category": "Desserts",
     "ingredients": [
-      "3/4 c. butter, melted",
-      "1 1/2 c. sugar",
+      "3/4 cup butter, melted",
+      "1 1/2 cups sugar",
       "2 eggs",
-      "1 1/2 c. sifted flour",
-      "1/2 t. salt",
-      "1 t. almond flavoring"
+      "1 1/2 cups sifted flour",
+      "1/2 teaspoon salt",
+      "1 teaspoon almond flavoring"
     ],
     "directions": [
-      "Line a heavy iron skillet c/a (with a) large piece of heavy duty foil.",
-      "Preheat oven to 350\u00b0.",
+      "Line a heavy iron skillet with a large piece of heavy duty foil.",
+      "Preheat oven to 350°.",
       "Pour batter into skillet, spreading evenly - Batter will be stiff.",
-      "Top c/ (with) slivered almonds & sprinkle sugars - colored sugars for holidays.",
-      "Bake 35-40 mins until light brown.",
-      "Remove from skillet c/ (with) foil - cool on wire rack, wrap in foil around cake.",
+      "Top with slivered almonds and sprinkle sugars - colored sugars for holidays.",
+      "Bake 35-40 minutes until light brown.",
+      "Remove from skillet with foil - cool on wire rack, wrap in foil around cake.",
       "Freezes well."
     ],
     "notes": "From the Kitchen of Lynn Johnson / Bea Taylor / Shirley Whitley",
@@ -147,12 +147,12 @@
   {
     "id": 7,
     "title": "Alouette Grilled Cheese Sandwich",
-    "category": "Sandwiches",
+    "category": "Main Courses",
     "ingredients": [
       "1 bunch watercress, stems removed (or fresh parsley)",
       "6 plum tomatoes, sliced",
       "12 one inch slices wheat, French or Italian bread",
-      "1 6.5oz package of Alouette \"Sundried Tomatoes and Basil\" or Alouette \"Garlic & Herbs Classique\" flavored Gourmet Spreadable Cheese",
+      "1 6.5 ounce package of Alouette \"Sundried Tomatoes and Basil\" or Alouette \"Garlic & Herbs Classique\" flavored Gourmet Spreadable Cheese",
       "Butter"
     ],
     "directions": [
@@ -169,12 +169,12 @@
   {
     "id": 8,
     "title": "Ann's Potato Salad",
-    "category": "Salad",
+    "category": "Salads",
     "ingredients": [
-      "3# red skin potatoes - cook in beef broth",
-      "2 T white wine",
-      "2 T salad oil",
-      "2 T white wine vinegar",
+      "3 pounds red skin potatoes - cook in beef broth",
+      "2 tablespoons white wine",
+      "2 tablespoons salad oil",
+      "2 tablespoons white wine vinegar",
       "1-2 scallions",
       "2 cloves garlic - minced",
       "1/2 - 1 cup sliced red onions",
@@ -191,23 +191,23 @@
   },
   {
     "id": 9,
-    "title": "Apple Pancakes with Honey Almond Cream Syrup",
-    "category": "Breakfast",
+    "title": "Apple Pancakes With Honey Almond Cream Syrup",
+    "category": "Breakfast & Brunch",
     "ingredients": [
       "3 eggs, beaten",
-      "1 c flour",
-      "3 t baking powder",
-      "1/4 t salt",
-      "1 T brown sugar",
-      "2 T melted butter",
-      "3/4 c milk",
-      "1 sm apple, cored, peeled, grated",
-      "1/2 c butter (for syrup)",
-      "1/2 c honey (for syrup)",
-      "1/2 c cream (for syrup)",
-      "4 T finely chopped toasted almonds (for syrup)",
-      "2 T brown sugar (for syrup)",
-      "1 t vanilla (for syrup)"
+      "1 cup flour",
+      "3 teaspoons baking powder",
+      "1/4 teaspoon salt",
+      "1 tablespoon brown sugar",
+      "2 tablespoons melted butter",
+      "3/4 cup milk",
+      "1 small apple, cored, peeled, grated",
+      "1/2 cup butter (for syrup)",
+      "1/2 cup honey (for syrup)",
+      "1/2 cup cream (for syrup)",
+      "4 tablespoons finely chopped toasted almonds (for syrup)",
+      "2 tablespoons brown sugar (for syrup)",
+      "1 teaspoon vanilla (for syrup)"
     ],
     "directions": [
       "In a large bowl, beat eggs and add remaining ingredients (except apple).",
@@ -217,27 +217,27 @@
       "For the syrup: simmer all ingredients (except vanilla) for 5 minutes or until thick.",
       "Add vanilla."
     ],
-    "notes": "Makes 12 pancakes. Makes 1/2 c syrup.",
+    "notes": "Makes 12 pancakes. Makes 1/2 cup syrup.",
     "pdfLink": "pdfs/Apple Pancakes with Honey Almond Cream Syrup.pdf"
   },
   {
     "id": 10,
     "title": "Apple Puffed Pancake",
-    "category": "Breakfast",
+    "category": "Breakfast & Brunch",
     "ingredients": [
       "6 eggs",
-      "1 \u00bd cups milk",
+      "1 1/2 cups milk",
       "1 cup all-purpose flour",
       "3 tablespoons sugar",
       "1 teaspoon vanilla extract",
-      "\u00bd teaspoon salt",
-      "\u00bc teaspoon ground cinnamon",
-      "\u00bd cup butter",
+      "1/2 teaspoon salt",
+      "1/4 teaspoon ground cinnamon",
+      "1/2 cup butter",
       "2 large apples, peeled and thinly sliced",
       "2 tablespoons brown sugar"
     ],
     "directions": [
-      "Preheat oven to 425\u00b0.",
+      "Preheat oven to 425°.",
       "In a food processor fitted with the metal blade or a large bowl, combine eggs, milk, flour, sugar, vanilla, salt and cinnamon. Process or whisk with a wire whisk until blended. If mixing by hand, the batter will be a little lumpy.",
       "Place butter in a 12-inch fluted porcelain quiche dish or a 9-by-13-inch baking pan. Place in oven until butter melts. Add apple slices and bake until butter sizzles (do NOT allow to brown).",
       "Remove dish from oven. Pour in batter and sprinkle with brown sugar. Bake 20 minutes or until nicely browned and puffed. Serve immediately."
@@ -257,7 +257,7 @@
       "1 cup (4 ounce) shredded Monterey Jack",
       "1 cup grated Parmesan",
       "1/2 cup sour cream",
-      "1 (1 lb) loaf French bread",
+      "1 (1 pound) loaf French bread",
       "1/2 cup (2 ounce) shredded cheddar"
     ],
     "directions": [
@@ -266,7 +266,7 @@
       "Cut bread lengthways.",
       "Scoop out middle and mix bread with artichoke mixture.",
       "Pack into cavity and sprinkle with cheddar.",
-      "Cover with foil and bake at 350\u00b0 for 25 minutes.",
+      "Cover with foil and bake at 350° for 25 minutes.",
       "Uncover and bake 5 minutes."
     ],
     "notes": "Recipe written on the back of a rental advertisement for Meadow Lane Apartments.",
@@ -274,8 +274,8 @@
   },
   {
     "id": 12,
-    "title": "Asparagus and Prosciutto Bundles",
-    "category": "Appetizer",
+    "title": "Asparagus And Prosciutto Bundles",
+    "category": "Appetizers",
     "ingredients": [
       "48 thin asparagus spears",
       "2-1/2 ounces soft fresh goat cheese (such as Montrachet), room temperature",
@@ -289,7 +289,7 @@
       "Cook tips in large pot of boiling salted water until just crisp-tender, about 1 minute.",
       "Drain. Transfer to paper towels; drain well.",
       "Blend goat cheese, basil, pine nuts, water and orange peel in small bowl. Season with salt and pepper.",
-      "Spread scant 1 tsp. filling over each prosciutto strip.",
+      "Spread scant 1 teaspoon filling over each prosciutto strip.",
       "Arrange 2 asparagus tips atop filling at short end of prosciutto.",
       "Roll up prosciutto, enclosing base of asparagus. Press to seal."
     ],
@@ -298,25 +298,25 @@
   },
   {
     "id": 13,
-    "title": "Asparagus with Sage Butter",
-    "category": "Side Dish",
+    "title": "Asparagus With Sage Butter",
+    "category": "Side Dishes",
     "ingredients": [
-      "2# thin asparagus - ends trimmed",
-      "2 tablespoon olive oil",
+      "2 pounds thin asparagus - ends trimmed",
+      "2 tablespoons olive oil",
       "Salt",
-      "4 T unsalted butter",
+      "4 tablespoons unsalted butter",
       "30 sage leaves",
-      "3 T fresh lemon juice",
+      "3 tablespoons fresh lemon juice",
       "Shredded zest of 1/2 lemon",
       "Parmigiano-Reggiano cheese, for shaving"
     ],
     "directions": [
-      "Preheat oven to 450\u00b0.",
-      "Toss asparagus c olive oil & 1/2 teas. salt. Spread on baking sheet & roast in the oven for about 5 mins or until spears are tender.",
-      "In a small skillet, melt butter, add sage leaves & cook until butter is lightly browned - 2 mins.",
-      "Stir in lemon juice & 1/4 teas. salt.",
+      "Preheat oven to 450°.",
+      "Toss asparagus with olive oil and 1/2 teaspoon salt. Spread on baking sheet and roast in the oven for about 5 minutes or until spears are tender.",
+      "In a small skillet, melt butter, add sage leaves and cook until butter is lightly browned - 2 minutes.",
+      "Stir in lemon juice and 1/4 teaspoon salt.",
       "Transfer the asparagus to a warmed platter, spoon sage-lemon butter on top.",
-      "Garnish c lemon zest & cheese."
+      "Garnish with lemon zest and cheese."
     ],
     "notes": "6 servings",
     "pdfLink": "pdfs/Asparagus with Sage Butter.pdf"
@@ -336,7 +336,7 @@
     ],
     "directions": [
       "Put cloves in orange.",
-      "Bake in oven at 350\u00b0 for 1 hour.",
+      "Bake in oven at 350° for 1 hour.",
       "Remove cloves and slice orange.",
       "Add all ingredients together.",
       "Heat in crockpot on low."
@@ -347,7 +347,7 @@
   {
     "id": 15,
     "title": "Aunt Lydias - Crepes",
-    "category": "Breakfast / Dessert",
+    "category": "Desserts",
     "ingredients": [
       "4 eggs",
       "1 cup milk",
@@ -365,30 +365,30 @@
   {
     "id": 16,
     "title": "Autumn Harvest Soup",
-    "category": "Soup",
+    "category": "Soups",
     "ingredients": [
-      "1 lb. lean ground beef",
+      "1 pound lean ground beef",
       "1 large onion, chopped",
       "6 cups hot water",
       "3/4 cup celery, chopped",
-      "2 large potatoes, peeled & cubed",
-      "2 tablespoon. salt (or less)",
-      "1 teaspoon. pepper",
+      "2 large potatoes, peeled and cubed",
+      "2 tablespoons salt (or less)",
+      "1 teaspoon pepper",
       "2 bay leaves",
-      "1 teaspoon. basil",
+      "1 teaspoon basil",
       "2 large cans whole tomatoes, chopped",
-      "1 pkg. frozen mixed vegetables (I use 2)"
+      "1 package frozen mixed vegetables (I use 2)"
     ],
     "directions": [
       "Brown beef in a soup pot.",
       "Add onion and cook 5 minutes more.",
       "Add water and heat up.",
       "Add remaining ingredients, except tomatoes.",
-      "Bring to boil, lower temp., cover and simmer for 20 mins. or until veggies are done to your liking.",
-      "Add tomatoes with juice, bring to boil, and simmer 10 mins. longer.",
+      "Bring to boil, lower temperature, cover and simmer for 20 minutes or until veggies are done to your liking.",
+      "Add tomatoes with juice, bring to boil, and simmer 10 minutes longer.",
       "Correct to taste."
     ],
-    "notes": "I dice up whole tomatoes in med. size chunks.",
+    "notes": "I dice up whole tomatoes in medium size chunks.",
     "pdfLink": "pdfs/Autumn Harvest Soup.pdf"
   },
   {
@@ -401,17 +401,17 @@
       "1-2 tablespoons butter",
       "2 large onions, chopped",
       "2 large Granny Smith apples, coarsely chopped",
-      "\u00bd- 1 tablespoon curry powder",
+      "1/2 - 1 tablespoon curry powder",
       "2 quarts chicken broth",
-      "\u00bc teaspoon sea salt",
-      "\u215b teaspoon white pepper",
-      "\u00bc cup whipping cream, warmed",
+      "1/4 teaspoon sea salt",
+      "1/8 teaspoon white pepper",
+      "1/4 cup whipping cream, warmed",
       "3-4 sprigs of fresh parsley"
     ],
     "directions": [
       "Preheat oven to 350.",
       "Place squash, cut side down, on an oiled baking pan; bake 30 minutes or until soft. Let cool and scoop out pulp. Set aside.",
-      "In a large saut\u00e9 pan, melt butter and add onions and apples. Saute over medium low heat for 6-9 minutes or until softened and translucent.",
+      "In a large sauté pan, melt butter and add onions and apples. Saute over medium low heat for 6-9 minutes or until softened and translucent.",
       "Transfer onion mixture and squash to food processor; add curry and puree.",
       "Slowly add chicken broth while processor is running until soup reaches desired consistency.",
       "Season to taste with salt and pepper.",
@@ -423,26 +423,26 @@
   {
     "id": 18,
     "title": "Avocado Dip",
-    "category": "Appetizers / Dips",
+    "category": "Appetizers",
     "ingredients": [
-      "1 c. mashed avocado pulp",
-      "1/2 # pkg. cream cheese",
-      "3 T. lemon juice",
+      "1 cup mashed avocado pulp",
+      "1/2 pound package cream cheese",
+      "3 tablespoons lemon juice",
       "dash Worcestershire sauce",
-      "1/3 c. finely chopped green onions",
-      "1 teak. salt"
+      "1/3 cup finely chopped green onions",
+      "1 teaspoon salt"
     ],
     "directions": [
       "Gradually add the avocado to cream cheese, blending until smooth.",
-      "Add lemon juice, Worcestershire sauce, onions & salt & mix thoroughly."
+      "Add lemon juice, Worcestershire sauce, onions and salt and mix thoroughly."
     ],
     "notes": "The recipe refers to Worcestershire sauce as 'Worcestershire sauce' and the measurement '1 teak.' is interpreted as '1 teaspoon'.",
     "pdfLink": "pdfs/Avocado Dip.pdf"
   },
   {
     "id": 19,
-    "title": "BACON AND MUSHROOM DIP",
-    "category": "Appetizers/Dips",
+    "title": "Bacon And Mushroom Dip",
+    "category": "Appetizers",
     "ingredients": [
       "8 slices bacon",
       "8 ounces fresh mushrooms, chopped",
@@ -470,8 +470,8 @@
   },
   {
     "id": 20,
-    "title": "BAKED POTATO SOUP",
-    "category": "Soup",
+    "title": "Baked Potato Soup",
+    "category": "Soups",
     "ingredients": [
       "4-6 tablespoons Canola oil",
       "1 medium sweet onion, chopped",
@@ -499,12 +499,12 @@
   },
   {
     "id": 21,
-    "title": "BASIC SPLIT PEA SOUP",
-    "category": "Soup",
+    "title": "Basic Split Pea Soup",
+    "category": "Soups",
     "ingredients": [
-      "1 lb dried green split peas",
+      "1 pound dried green split peas",
       "1 bouillon cube",
-      "3/4 lb smoked ham, cubed or 1 ham hock",
+      "3/4 pound smoked ham, cubed or 1 ham hock",
       "1 small onion, whole",
       "1 clove garlic",
       "1 bay leaf",
@@ -526,8 +526,8 @@
   },
   {
     "id": 22,
-    "title": "BREAKFAST IN A BUN",
-    "category": "Breakfast",
+    "title": "Breakfast In A Bun",
+    "category": "Breakfast & Brunch",
     "ingredients": [
       "3/4 cup cubed ham",
       "1 tablespoon margarine",
@@ -554,7 +554,7 @@
   },
   {
     "id": 23,
-    "title": "BROILED CRAB PUFFS",
+    "title": "Broiled Crab Puffs",
     "category": "Appetizers",
     "ingredients": [
       "1 pound crab meat, special or backfin",
@@ -596,10 +596,10 @@
       "Thin sprinkle with brown sugar",
       "Place a water chestnut on 1 slice",
       "Roll up and secure with a toothpick",
-      "Bake 20 minutes in a 350\u00b0 oven",
+      "Bake 20 minutes in a 350° oven",
       "Drain on paper towel",
       "Serve with warm chutney",
-      "Return to oven for 5 minutes at 350\u00b0"
+      "Return to oven for 5 minutes at 350°"
     ],
     "notes": "Use foil lined pans with sides Use a lot of mustard Drain quickly Do not let sit on paper towel",
     "pdfLink": "pdfs/Bacon, Water Chestnut & Chutney.pdf"
@@ -607,11 +607,11 @@
   {
     "id": 25,
     "title": "Bacon-Blue Dip",
-    "category": "Appetizers / Dips",
+    "category": "Appetizers",
     "ingredients": [
-      "1-4 ounce. blue cheese, crumbled",
-      "1-3 ounce. small cream cheese, softened",
-      "2 T white wine (dry)",
+      "1-4 ounce blue cheese, crumbled",
+      "1-3 ounce small cream cheese, softened",
+      "2 tablespoons white wine (dry)",
       "1 teaspoon minced onion",
       "1/4 cup sour cream",
       "4 strips bacon, crumbled"
@@ -628,7 +628,7 @@
   {
     "id": 26,
     "title": "Baked Curried Scrambled Eggs",
-    "category": "Egg Recipes",
+    "category": "Main Courses",
     "ingredients": [
       "12 hard cooked eggs",
       "1/4 cup softened butter, sour cream or cottage cheese",
@@ -643,40 +643,40 @@
       "Peel and cut eggs in half, keeping the whites together, so you can put the two halves back together later.",
       "Sieve egg yolks. Add butter or sour cream or cottage cheese, mustard, salt and pepper. Fill halves (level) with yolk mixture. Put the two halves back together using toothpicks through egg at each end to hold firmly together.",
       "Add raw eggs to leftover yolk mixture. Dip stuffed eggs into this mixture, then into crumbs.",
-      "Fry breaded eggs in vegetable oil heated to 350\u00b0 for one-half to one minute or until golden brown. Remove toothpicks and serve hot."
+      "Fry breaded eggs in vegetable oil heated to 350° for one-half to one minute or until golden brown. Remove toothpicks and serve hot."
     ],
     "notes": "Mrs. Louis Haywood sends this unusual French Fried Stuffed Egg recipe to us from New Richmond, Indiana. While the origin of it is lost, it's been a family favorite for years. Mrs. Haywood especially remembers serving the eggs to her children and their friends at Easter brunch, along with sweet rolls and ambrosia. We think it's a tasty brunch idea for Easter or any other time of year.",
     "pdfLink": "pdfs/Baked Curried Scrambled Eggs.pdf"
   },
   {
     "id": 27,
-    "title": "Baked Fresh Fettuccine with Spinach",
-    "category": "Pasta",
+    "title": "Baked Fresh Fettuccine With Spinach",
+    "category": "Main Courses",
     "ingredients": [
-      "2 lbs. fresh spinach",
+      "2 pounds fresh spinach",
       "1 white onion, minced",
       "1 garlic clove, minced",
       "8 slices prosciutto, diced",
-      "2 T. butter",
-      "2 T. olive oil",
-      "2 T. flour",
-      "1 1/2 c. light cream",
+      "2 tablespoons butter",
+      "2 tablespoons olive oil",
+      "2 tablespoons flour",
+      "1 1/2 cups light cream",
       "Juice of 1 lemon",
-      "1 t. salt",
-      "1/2 t. freshly ground pepper",
-      "1 lb. fettuccine, cooked barely al dente",
-      "4 T. freshly grated Parmesan cheese"
+      "1 teaspoon salt",
+      "1/2 teaspoon freshly ground pepper",
+      "1 pound fettuccine, cooked barely al dente",
+      "4 tablespoons freshly grated Parmesan cheese"
     ],
     "directions": [
-      "Rinse spinach, drain & cook in a covered pan until soft - There's no need to add water; the water that clings to the leaves is sufficient.",
-      "Drain spinach, press all the liquid from it & chop it.",
-      "In a large saut\u00e9 pan, cook onion, garlic & prosciutto in butter & oil until onion is soft but not brown.",
-      "Blend in flour & cook, stirring for 2 min. w/out letting the flour brown.",
-      "Add cream slowly & stir until the sauce is smooth.",
-      "Blend in spinach, lemon juice, salt, & pepper.",
-      "Place freshly cooked fettuccine in a large warm bowl, pour over the spinach sauce, & toss to mix.",
-      "Place fettuccine in a buttered gratin dish & sprinkle w/ Parmesan.",
-      "Bake in a 375\u00b0 oven for 10 min. or until cheese browns & the sauce bubbles.",
+      "Rinse spinach, drain and cook in a covered pan until soft - There's no need to add water; the water that clings to the leaves is sufficient.",
+      "Drain spinach, press all the liquid from it and chop it.",
+      "In a large sauté pan, cook onion, garlic and prosciutto in butter and oil until onion is soft but not brown.",
+      "Blend in flour and cook, stirring for 2 minutes without letting the flour brown.",
+      "Add cream slowly and stir until the sauce is smooth.",
+      "Blend in spinach, lemon juice, salt, and pepper.",
+      "Place freshly cooked fettuccine in a large warm bowl, pour over the spinach sauce, and toss to mix.",
+      "Place fettuccine in a buttered gratin dish and sprinkle with Parmesan.",
+      "Bake in a 375° oven for 10 minutes or until cheese browns and the sauce bubbles.",
       "Serves 6"
     ],
     "notes": "",
@@ -685,7 +685,7 @@
   {
     "id": 28,
     "title": "Baked Grits",
-    "category": "Sides",
+    "category": "Side Dishes",
     "ingredients": [
       "1 cup grits",
       "3 cups salted water",
@@ -700,22 +700,22 @@
       "Add 1 cup milk, cover and cook on low heat for 5 minutes.",
       "Add 2 beaten eggs, 1 roll garlic cheese, and black and red pepper.",
       "Sprinkle paprika on top.",
-      "Bake for 30-40 minutes at 375\u00b0."
+      "Bake for 30-40 minutes at 375°."
     ],
     "notes": "Recipe from the kitchen of Mary Kaye Long. Serves 10-12. (For see Athens Cookbook)",
     "pdfLink": "pdfs/Baked Grits.pdf"
   },
   {
     "id": 29,
-    "title": "Baked Manicotti with Cheese Filling",
-    "category": "Main Course",
+    "title": "Baked Manicotti With Cheese Filling",
+    "category": "Main Courses",
     "ingredients": [
       "SAUCE:",
       "1/3 cup olive or salad oil",
       "1 1/2 cups finely chopped onion",
       "1 clove garlic, crushed",
-      "1 can (2 lb, 3 ounce) Italian tomatoes, undrained",
-      "1 can (6 ounce) tomato paste",
+      "1 can (2 pounds, 3 ounces) Italian tomatoes, undrained",
+      "1 can (6 ounces) tomato paste",
       "2 tablespoons chopped parsley",
       "1 tablespoon salt",
       "1 tablespoon sugar",
@@ -728,8 +728,8 @@
       "1/4 teaspoon salt",
       "1 1/2 cups water",
       "FILLING:",
-      "2 lb ricotta cheese",
-      "1 pkg (8 ounce) mozzarella cheese, diced",
+      "2 pounds ricotta cheese",
+      "1 package (8 ounces) mozzarella cheese, diced",
       "1/3 cup grated Parmesan cheese",
       "2 eggs",
       "1 teaspoon salt",
@@ -738,7 +738,7 @@
       "1/4 cup grated Parmesan cheese"
     ],
     "directions": [
-      "Make Sauce: In hot oil in 5-quart Dutch oven, saut\u00e9 onion and garlic 5 minutes. Mix in rest of sauce ingredients and 1 1/2 cups water, mashing tomatoes with fork. Bring to boiling, and reduce heat. Simmer mixture, covered and stirring occasionally, 1 hour.",
+      "Make Sauce: In hot oil in 5-quart Dutch oven, sauté onion and garlic 5 minutes. Mix in rest of sauce ingredients and 1 1/2 cups water, mashing tomatoes with fork. Bring to boiling, and reduce heat. Simmer mixture, covered and stirring occasionally, 1 hour.",
       "Make Manicotti: In medium bowl, combine 6 eggs, the flour, 1/4 teaspoon salt, and 1 1/2 cups water; with electric mixer, beat just until smooth. Let stand 1/2 hour or longer. Slowly heat an 8-inch skillet. Pour in 3 tablespoons batter, rotating the skillet quickly to spread batter evenly over bottom. Cook over medium heat until top is dry but bottom is not brown. Turn out on a wire rack to cool. Continue cooking until all of the batter is used. As the manicotti cool, stack them with waxed paper between them.",
       "Preheat oven to 350F. Make Filling: In large bowl, combine ricotta, mozzarella, 1/3 cup Parmesan, the eggs, salt, pepper, and parsley; beat with wooden spoon to blend well. Spread about 1/4 cup filling down the center of each manicotti, and roll up.",
       "Spoon 1 1/2 cups sauce into each of two 12-by-8-by-2-inch baking dishes. Place eight rolled manicotti, seam side down, in single layer; top with five more. Cover with 1 cup sauce; sprinkle with Parmesan. Bake, uncovered, 1/2 hour, or until bubbly.",
@@ -750,12 +750,12 @@
   {
     "id": 30,
     "title": "Baked Pineapple Pudding",
-    "category": "Dessert / Side Dish",
+    "category": "Desserts",
     "ingredients": [
       "1/2 cup butter",
       "1 cup sugar",
       "4 beaten eggs",
-      "1 #2 size can (20 ounce) unsweetened crushed pineapple, drained",
+      "1 #2 size can (20 ounces) unsweetened crushed pineapple, drained",
       "5 slices Pepperidge Farm (or Arnold's) white bread, cubed"
     ],
     "directions": [
@@ -764,8 +764,8 @@
       "Add drained crushed pineapple and stir just to blend.",
       "Add the cubed bread to the mixture.",
       "Stir gently or fold to blend.",
-      "Place in a 1 1/2 - 2 qt casserole dish (greased or ungreased, no cover).",
-      "Bake at 350\u00b0 for 1 hour, or until the top is brown."
+      "Place in a 1 1/2 - 2 quart casserole dish (greased or ungreased, no cover).",
+      "Bake at 350° for 1 hour, or until the top is brown."
     ],
     "notes": "Serves 4-6. Can be served hot (traditionally with ham) or cold. The cook notes that you can use a little less sugar, and that you do not need to grease the casserole dish. If using Arnold's bread (which is thicker and larger than Pepperidge Farm), use 5 or 6 slices; if using Pepperidge Farm, use 6 slices. Margarine can be used in place of butter without adverse effects.",
     "pdfLink": "pdfs/Baked Pineapple Pudding.pdf"
@@ -773,27 +773,27 @@
   {
     "id": 31,
     "title": "Banana Nut Bread",
-    "category": "Breads/Quick Breads",
+    "category": "Breads",
     "ingredients": [
       "1/2 cup oil",
       "1 cup sugar",
       "2 eggs, beaten",
       "3 ripe bananas, mashed",
       "2 cups all purpose flour",
-      "1 teaspoon. baking soda",
-      "1/2 teaspoon. baking powder",
-      "1/2 teaspoon. salt (can sub lemon juice)",
-      "3 tbls. milk",
-      "1/2 teaspoon. vanilla",
+      "1 teaspoon baking soda",
+      "1/2 teaspoon baking powder",
+      "1/2 teaspoon salt (can sub lemon juice)",
+      "3 tablespoons milk",
+      "1/2 teaspoon vanilla",
       "1/2 cup nuts"
     ],
     "directions": [
-      "Beat oil & sugar together.",
-      "Add eggs & banana pulp, beat well.",
-      "Add dry ingredients, milk & vanilla.",
-      "Mix well & stir in nuts.",
-      "Pour into greased & floured loaf pan (9x5x3).",
-      "Bake in preheated oven @ 350\u00b0 for 50 mins.",
+      "Beat oil and sugar together.",
+      "Add eggs and banana pulp, beat well.",
+      "Add dry ingredients, milk and vanilla.",
+      "Mix well and stir in nuts.",
+      "Pour into greased and floured loaf pan (9x5x3).",
+      "Bake in preheated oven @ 350° for 50 minutes.",
       "Cool well."
     ],
     "notes": "Recipe by Mary Armada, 1990. Marked as VG.",
@@ -829,10 +829,10 @@
   {
     "id": 33,
     "title": "Basic Switzerland Cheese Fondue",
-    "category": "Appetizer/Main Course",
+    "category": "Main Courses",
     "ingredients": [
       "1 clove garlic",
-      "1\u00bd cups dry white Swiss wine",
+      "1 1/2 cups dry white Swiss wine",
       "1 tablespoon lemon juice",
       "1 pound shredded Switzerland Swiss Cheese",
       "3 tablespoons flour",
@@ -843,7 +843,7 @@
       "Grate, shred or dice 1 pound Switzerland Swiss Cheese and dredge with flour.",
       "Cut bread into 1\" cubes.",
       "Rub inside of pot with cut garlic clove. Discard garlic.",
-      "Place pot on stove. Pour 1\u00bd cups of wine into pot.",
+      "Place pot on stove. Pour 1 1/2 cups of wine into pot.",
       "Heat over medium flame until wine is warm but not boiling.",
       "Add lemon juice.",
       "Add cheese by handfuls, stirring constantly with wooden spoon until cheese is melted and cheese-wine mixture has the appearance of a light creamy sauce.",
@@ -857,21 +857,21 @@
   {
     "id": 34,
     "title": "Bean Pasta Soup",
-    "category": "Soup",
+    "category": "Soups",
     "ingredients": [
       "1 medium onion, sliced",
       "2 crushed garlic cloves",
-      "1 c. smoked ham (4 ounce)",
-      "2 T. olive or vegetable oil",
-      "16 ounce. whole tomatoes",
-      "3 c. water",
-      "1 t. oregano leaves",
-      "1/2 t. thyme leaves",
-      "1/4 t. pepper",
-      "1 c. uncooked spiral pasta",
+      "1 cup smoked ham (4 ounces)",
+      "2 tablespoons olive or vegetable oil",
+      "16 ounces whole tomatoes",
+      "3 cups water",
+      "1 teaspoon oregano leaves",
+      "1/2 teaspoon thyme leaves",
+      "1/4 teaspoon pepper",
+      "1 cup uncooked spiral pasta",
       "2 medium chopped potatoes",
-      "sm. sliced zucchini",
-      "2 ounce beans",
+      "small sliced zucchini",
+      "2 ounces beans",
       "Parmesan cheese (for serving)"
     ],
     "directions": [
@@ -881,17 +881,17 @@
       "Stir in zucchini and beans; cook for 3 minutes.",
       "Sprinkle each serving with parmesan cheese."
     ],
-    "notes": "Recipe by Janet Shawalter, 1-90.",
+    "notes": "Recipe by Janet Showalter, 1-90.",
     "pdfLink": "pdfs/Bean Pasta Soup.pdf"
   },
   {
     "id": 35,
     "title": "Beef Fondue - Creamy Horseradish Sauce",
-    "category": "Sauces",
+    "category": "Sauces & Condiments",
     "ingredients": [
       "1 cup sour cream",
-      "3T drained prepared horseradish",
-      "1/4 teas. salt",
+      "3 tablespoons drained prepared horseradish",
+      "1/4 teaspoon salt",
       "dash paprika"
     ],
     "directions": [
@@ -904,12 +904,12 @@
   {
     "id": 36,
     "title": "Beef Fondue - Tomato Steak Sauce",
-    "category": "Sauces",
+    "category": "Sauces & Condiments",
     "ingredients": [
-      "1 8oz. can seasoned tomato sauce",
+      "1 8-ounce can seasoned tomato sauce",
       "1/3 cup bottled steak sauce",
-      "2 T. brown sugar",
-      "2 T. salad oil"
+      "2 tablespoons brown sugar",
+      "2 tablespoons salad oil"
     ],
     "directions": [
       "Mix all ingredients together.",
@@ -925,8 +925,8 @@
     "category": "Beverages",
     "ingredients": [
       "1 cup fresh/frozen lemon juice",
-      "1 qt. orange juice",
-      "3 bottles (24 ounce. each) white grape juice",
+      "1 quart orange juice",
+      "3 bottles (24 ounces each) white grape juice",
       "2-4 quarts chilled ginger ale",
       "Sliced lemons/limes (for garnish)"
     ],
@@ -941,57 +941,57 @@
   {
     "id": 38,
     "title": "Black Pearl Chowder",
-    "category": "Soup",
+    "category": "Soups",
     "ingredients": [
-      "2-15 ounce. cans Snow's Clam Chowder",
+      "2-15 ounce cans Snow's Clam Chowder",
       "2 cans minced clams (or chopped)",
       "1 small can evaporated milk",
       "1 stick of butter",
       "1 pint heavy cream",
-      "2 tsps. dill weed"
+      "2 teaspoons dill weed"
     ],
     "directions": [
       "Heat clam chowder, minced clams, and evaporated milk.",
       "Add butter and cook slowly.",
-      "Then add heavy cream & dill weed."
+      "Then add heavy cream and dill weed."
     ],
-    "notes": "Serve w/a little Harvey's Bristol Cream (Sherry)",
+    "notes": "Serve with a little Harvey's Bristol Cream (Sherry)",
     "pdfLink": "pdfs/Black Pearl Chowder.pdf"
   },
   {
     "id": 39,
-    "title": "Blistered Green-Bean and Corn Frittata",
-    "category": "Main Dish",
+    "title": "Blistered Green-Bean And Corn Frittata",
+    "category": "Main Courses",
     "ingredients": [
       "8 large eggs",
       "Kosher salt and freshly ground pepper",
       "3 tablespoons extra-virgin olive oil",
       "8 ounces green beans, cut into 1-inch pieces (2 cups)",
-      "1 shallot, thinly sliced (\u2153 cup)",
+      "1 shallot, thinly sliced (1/3 cup)",
       "1 cup fresh corn kernels (from 1 large ear)",
       "1 pint cherry tomatoes, halved (2 cups)",
       "2 tablespoons red-wine vinegar",
       "2 tablespoons chopped flat-leaf parsley"
     ],
     "directions": [
-      "Preheat broiler, with a rack in upper third. Beat eggs with \u00bd teaspoon salt and \u00bc teaspoon pepper until combined.",
+      "Preheat broiler, with a rack in upper third. Beat eggs with 1/2 teaspoon salt and 1/4 teaspoon pepper until combined.",
       "Heat 2 tablespoons oil in a medium (10-inch) nonstick skillet over medium-high. Add beans and cook, stirring, until lightly charred and crisp-tender, 5 to 6 minutes. Season with salt and pepper. Add shallot and corn; cook, stirring, until vegetables soften, 2 to 3 minutes. Add eggs; stir with a wooden spoon until large curds form and edges just begin to set, about 30 seconds.",
       "Transfer skillet to oven; broil until puffed and browning in spots and eggs are just set, about 2 minutes. Let stand 5 minutes before slicing. Meanwhile, toss tomatoes with remaining 1 tablespoon oil, vinegar, and parsley; season with salt and pepper. Serve salad with frittata."
     ],
-    "notes": "Active time: 25 min. | Total time: 35 min. | Serves: 4",
+    "notes": "Active time: 25 minutes | Total time: 35 minutes | Serves: 4",
     "pdfLink": "pdfs/Blistered Green-Bean and Corn Frittata.pdf"
   },
   {
     "id": 40,
     "title": "Bloody Bull Shot",
-    "category": "Cocktails/Beverages",
+    "category": "Beverages",
     "ingredients": [
-      "1 lg can tomato juice",
+      "1 large can tomato juice",
       "1 can beef bouillon",
-      "1 1/2 ounce. Worcestershire",
-      "2 1/2 ounce. lemon j. (fresh is best)",
-      "1 teas gr. celery seed",
-      "1 teas salt",
+      "1 1/2 ounces Worcestershire",
+      "2 1/2 ounces lemon juice (fresh is best)",
+      "1 teaspoon ground celery seed",
+      "1 teaspoon salt",
       "dash of pepper"
     ],
     "directions": [
@@ -1006,7 +1006,7 @@
     "title": "Blue Cheese Whip",
     "category": "Appetizers",
     "ingredients": [
-      "4 ounce. Blue cheese",
+      "4 ounces Blue cheese",
       "Cream cheese",
       "Butter"
     ],
@@ -1014,7 +1014,7 @@
       "Soften",
       "Whip",
       "Rechill",
-      "Serve w/ crackers or celery"
+      "Serve with crackers or celery"
     ],
     "notes": "A favorite recipe from Nancy Dawson. Date: 6-94. Submitted by Barbara Tyler.",
     "pdfLink": "pdfs/Blue Cheese Whip.pdf"
@@ -1022,9 +1022,9 @@
   {
     "id": 42,
     "title": "Boston Baked Beans",
-    "category": "Side Dish",
+    "category": "Side Dishes",
     "ingredients": [
-      "46 ounce. B&M Baked Beans",
+      "46 ounces B&M Baked Beans",
       "1 medium white onion (sliced thin)",
       "1 orange (sliced thin, use rind, but remove seeds)",
       "1/2 cup brown sugar",
@@ -1032,14 +1032,14 @@
     ],
     "directions": [
       "Layer in a 2-quart deep casserole:",
-      "1. 1/2 onion & orange slices",
+      "1. 1/2 onion and orange slices",
       "2. 1/3 beans",
       "3. all of the brown sugar",
       "4. 1/3 beans",
-      "5. remaining onion & orange slices",
+      "5. remaining onion and orange slices",
       "6. 1/3 beans",
       "7. pour maple syrup over all",
-      "Cover casserole and bake 6 hours at 300\u00b0",
+      "Cover casserole and bake 6 hours at 300°",
       "Stir before serving"
     ],
     "notes": "Recipe from the kitchen of: Jeri; Serves 8-10 servings",
@@ -1048,7 +1048,7 @@
   {
     "id": 43,
     "title": "Brandy Eggnog Sauce",
-    "category": "Sauce",
+    "category": "Sauces & Condiments",
     "ingredients": [
       "1/4 cup sifted confectioners' sugar",
       "2 egg yolks, beaten",
@@ -1066,14 +1066,14 @@
   {
     "id": 44,
     "title": "Breakfast Casserole",
-    "category": "Breakfast",
+    "category": "Breakfast & Brunch",
     "ingredients": [
       "1 pound sausage (hot/mild), broken up then drained",
       "Bread crumbs (enough to cover the bottom of the pan)",
       "8-10 eggs",
       "2 cups milk",
-      "1 teaspoon. dry mustard",
-      "1 teaspoon. salt",
+      "1 teaspoon dry mustard",
+      "1 teaspoon salt",
       "1 cup cheddar cheese"
     ],
     "directions": [
@@ -1084,7 +1084,7 @@
       "Pour the egg mixture over the sausage.",
       "Cover with 1 cup of cheddar cheese.",
       "Refrigerate overnight or in the morning.",
-      "Bake at 350\u00b0 for 45 minutes."
+      "Bake at 350° for 45 minutes."
     ],
     "notes": "The recipe specifies to refrigerate overnight or in the morning before baking.",
     "pdfLink": "pdfs/Breakfast Casserole.pdf"
@@ -1092,11 +1092,11 @@
   {
     "id": 45,
     "title": "Broccoli Casserole",
-    "category": "Casserole",
+    "category": "Side Dishes",
     "ingredients": [
       "1 onion, chopped fine",
       "1/2 stick butter",
-      "1 pkg. broccoli spears (or cut), chopped & drained",
+      "1 package broccoli spears (or cut), chopped and drained",
       "1 cup uncooked minute rice",
       "1 can cream of mushroom soup",
       "1/4 cup water",
@@ -1105,8 +1105,8 @@
     ],
     "directions": [
       "Saute onion in butter.",
-      "Add broccoli, rice, soup, cheese, water & milk.",
-      "Bake in greased casserole at 350\u00b0 for 30-40 minutes, uncovered."
+      "Add broccoli, rice, soup, cheese, water and milk.",
+      "Bake in greased casserole at 350° for 30-40 minutes, uncovered."
     ],
     "notes": "Recipe from the kitchen of Mom Willett. Serves 6.",
     "pdfLink": "pdfs/Broccoli Casserole.pdf"
@@ -1118,11 +1118,11 @@
     "ingredients": [
       "1/2 cup Spanish onions, sliced",
       "1 cup cheddar cheese, shredded",
-      "1/2 lb bacon, fried crisp",
+      "1/2 pound bacon, fried crisp",
       "1 bunch fresh broccoli, chopped",
       "1/2 cup mayo",
       "1/4 cup sugar",
-      "1 T vinegar"
+      "1 tablespoon vinegar"
     ],
     "directions": [
       "Mix the dressing ingredients (mayo, sugar, vinegar) together.",
@@ -1134,8 +1134,8 @@
   },
   {
     "id": 47,
-    "title": "Broccoli and Cheese Stuffed Potato",
-    "category": "Vegetable Entr\u00e9e",
+    "title": "Broccoli And Cheese Stuffed Potato",
+    "category": "Side Dishes",
     "ingredients": [
       "4 medium-large baking potatoes, baked and cooled slightly",
       "1-2 tablespoons margarine, softened",
@@ -1155,13 +1155,13 @@
       "Place in a shallow pan; bake 20-25 minutes or until cheese melts and potatoes are golden brown.",
       "Yields 8 halves."
     ],
-    "notes": "Can be prepared early in the day and baked at serving time. Delicious as a vegetable entr\u00e9e! \"A meal in itself!\"",
+    "notes": "Can be prepared early in the day and baked at serving time. Delicious as a vegetable entrée! \"A meal in itself!\"",
     "pdfLink": "pdfs/Broccoli and Cheese Stuffed Potato.pdf"
   },
   {
     "id": 48,
-    "title": "Brunch Eggs for 20",
-    "category": "Brunch",
+    "title": "Brunch Eggs For 20",
+    "category": "Breakfast & Brunch",
     "ingredients": [
       "1 1/2 sticks butter",
       "4 dozen eggs",
@@ -1181,7 +1181,7 @@
       "In 2 - 9\"x13\" pans, layer eggs-soup-cheese (2 layers of each).",
       "Place cheese on top.",
       "Refrigerate overnight.",
-      "Put in cold oven and set at 300\u00b0.",
+      "Put in cold oven and set at 300°.",
       "Bake for 1 hour.",
       "Sprinkle with paprika and parsley."
     ],
@@ -1190,24 +1190,24 @@
   },
   {
     "id": 49,
-    "title": "Brunch dish",
-    "category": "Casserole / Brunch",
+    "title": "Brunch Dish",
+    "category": "Breakfast & Brunch",
     "ingredients": [
-      "1 lb bulk pork sausage",
+      "1 pound bulk pork sausage",
       "1/2 cup chopped onion",
       "1/4 cup chopped green pepper (can mix in some red peppers)",
       "1 can cream of chicken soup, undiluted",
-      "1/3 cup H2O",
-      "1-8oz pkg egg noodles, cooked",
-      "Salt & pepper to taste",
+      "1/3 cup water",
+      "1-8ounce package egg noodles, cooked",
+      "Salt and pepper to taste",
       "1/2 can or more (to taste) canned french fried onion rings"
     ],
     "directions": [
-      "Mix H2O & soup; add rest of ingredients except topping.",
+      "Mix water and soup; add rest of ingredients except topping.",
       "Mix well.",
       "Put into casserole dish.",
       "Add topping (crushed for top).",
-      "Bake at 350 until hot & bubbly."
+      "Bake at 350 until hot and bubbly."
     ],
     "notes": "Can cover with foil at start to prevent too much browning. Can make ahead and top before baking.",
     "pdfLink": "pdfs/Brunch dish.pdf"
@@ -1215,7 +1215,7 @@
   {
     "id": 50,
     "title": "Buckwheat Pancakes",
-    "category": "Breakfast",
+    "category": "Breakfast & Brunch",
     "ingredients": [
       "1 cup cold water",
       "1 cup scalded milk",
@@ -1233,16 +1233,16 @@
       "Add both flours (sifted) and salt to the mixture.",
       "Cover and let rise overnight in a warm place.",
       "In the morning, add 1/4 cup warm water and 1/2 teaspoon baking soda.",
-      "Use a hot griddle (450\u00b0) in which bacon has been cooked or solid shortening.",
+      "Use a hot griddle (450°) in which bacon has been cooked or solid shortening.",
       "Turn once when bubbles begin to rise on pancake."
     ],
-    "notes": "May serve with (Stoneyfield Farm) Vanilla yogurt & fruit or maple syrup.",
+    "notes": "May serve with (Stoneyfield Farm) Vanilla yogurt and fruit or maple syrup.",
     "pdfLink": "pdfs/Buckwheat Pancakes.pdf"
   },
   {
     "id": 51,
-    "title": "CARROT GINGER SOUP",
-    "category": "Soup",
+    "title": "Carrot Ginger Soup",
+    "category": "Soups",
     "ingredients": [
       "1 tablespoon canola oil",
       "3-4 medium onions, peeled and chopped",
@@ -1253,8 +1253,8 @@
       "1/4 teaspoon ground white pepper"
     ],
     "directions": [
-      "Heat oil over low heat in a large, heavy saucepan with tight fitting lid; add onions and saut\u00e9 until translucent.",
-      "Add ginger and saut\u00e9 an additional 2 minutes.",
+      "Heat oil over low heat in a large, heavy saucepan with tight fitting lid; add onions and sauté until translucent.",
+      "Add ginger and sauté an additional 2 minutes.",
       "Increase heat to medium and add stock and carrots; cover, reduce to simmer and cook until carrots are very tender.",
       "Season with salt and white pepper.",
       "Puree in small amounts and serve warm or chilled.",
@@ -1265,8 +1265,8 @@
   },
   {
     "id": 52,
-    "title": "CHEESE SOUFFLE\u0301",
-    "category": "Main Dish",
+    "title": "Cheese Soufflé",
+    "category": "Main Courses",
     "ingredients": [
       "8 ounces sharp cheese, cut into chunks",
       "10 slices white bread (crusts removed)",
@@ -1283,12 +1283,12 @@
       "Bake 50-60 minutes."
     ],
     "notes": "This can be prepared a day ahead and baked the following day or it can be whipped up at the last minute. Foolproof! You would never guess it's made with bread! Delicious!",
-    "pdfLink": "pdfs/CHEESE SOUFFLE\u0301.pdf"
+    "pdfLink": "pdfs/CHEESE SOUFFLÉ.pdf"
   },
   {
     "id": 53,
-    "title": "CLARE'S SALAD NICOISE",
-    "category": "Salad",
+    "title": "Clare's Salad Nicoise",
+    "category": "Salads",
     "ingredients": [
       "1 6.7-ounce jar of Italian tuna (or 7-ounce can of good-quality tuna)",
       "2 hard-boiled eggs, quartered",
@@ -1296,21 +1296,21 @@
       "About 9 new potatoes, cooked and chilled and sliced just before using",
       "1 cup green beans, cooked and chilled",
       "1 avocado peeled, seeded and sliced",
-      "\u00bd cup nicoise olives (or other black olives), sliced",
+      "1/2 cup nicoise olives (or other black olives), sliced",
       "Vinaigrette (see below)"
     ],
     "directions": [
       "Assemble vinaigrette at bottom of salad bowl: Add a glug of extra-virgin olive oil, about a third as much red wine vinegar, a smidge of sugar and an ample spoonful of Dijon mustard. No precise measurements needed. Whisk the ingredients and taste, making adjustments to your liking.",
       "Atop the vinaigrette, arrange the tuna, eggs, tomatoes, potatoes, green beans, avocado and olives.",
-      "Toss well and serve immediately with a fresh baguette and chilled white or ros\u00e9 wine."
+      "Toss well and serve immediately with a fresh baguette and chilled white or rosé wine."
     ],
     "notes": "Makes 3 servings.",
     "pdfLink": "pdfs/CLARE'S SALAD NICOISE.pdf"
   },
   {
     "id": 54,
-    "title": "CRAB MEAT QUICHE",
-    "category": "Main Course",
+    "title": "Crab Meat Quiche",
+    "category": "Main Courses",
     "ingredients": [
       "2 9-inch frozen pie shells",
       "1 egg white",
@@ -1333,8 +1333,8 @@
       "Prick bottom and sides of crust; bake for 5 minutes and cool.",
       "Pick through crab 3 times to remove all shell.",
       "Divide crab evenly and place half in the bottom of each pie crust.",
-      "Saut\u00e9 bacon until golden brown. Remove bacon, drain and crumble; place on top of crab.",
-      "Saut\u00e9 onion in bacon grease until soft; drain and distribute over crab.",
+      "Sauté bacon until golden brown. Remove bacon, drain and crumble; place on top of crab.",
+      "Sauté onion in bacon grease until soft; drain and distribute over crab.",
       "Beat milk, egg, salt, pepper and lemon juice. Pour over crab; top with cheese.",
       "Sprinkle with chives and paprika. Place on cookie sheet and bake 35 minutes. Serve hot.",
       "Serves 3-6."
@@ -1344,8 +1344,8 @@
   },
   {
     "id": 55,
-    "title": "CRANBERRY NUT BREAD",
-    "category": "Quick Bread",
+    "title": "Cranberry Nut Bread",
+    "category": "Breads",
     "ingredients": [
       "2 cups flour",
       "1 cup sugar",
@@ -1376,8 +1376,8 @@
   },
   {
     "id": 56,
-    "title": "CREAMED SPINACH",
-    "category": "Microwave Recipe",
+    "title": "Creamed Spinach",
+    "category": "Side Dishes",
     "ingredients": [
       "1 10-ounce package frozen leaf spinach, cooked and drained OR 1 pound fresh spinach, cleaned and washed",
       "2 tablespoons butter",
@@ -1402,8 +1402,8 @@
   },
   {
     "id": 57,
-    "title": "CREAMY COLE SLAW",
-    "category": "Salad / Side Dish",
+    "title": "Creamy Cole Slaw",
+    "category": "Salads",
     "ingredients": [
       "8 cups sliced or shredded cabbage",
       "1 small onion, minced",
@@ -1423,13 +1423,13 @@
   {
     "id": 58,
     "title": "California Caviar",
-    "category": "Appetizers / Dips",
+    "category": "Appetizers",
     "ingredients": [
-      "1- 4 ounce. can green chillis, chopped",
-      "1- 3 1/4 ounce. can black olives, sliced",
+      "1- 4 ounce can green chillis, chopped",
+      "1- 3 1/4 ounce can black olives, sliced",
       "4 green onions, chopped",
       "1 tomato, peeled and chopped",
-      "4 ounce. Feta cheese, crumbled",
+      "4 ounces Feta cheese, crumbled",
       "1/2 cup Italian salad dressing",
       "1/4 cup fresh cilantro, chopped"
     ],
@@ -1442,15 +1442,15 @@
   {
     "id": 59,
     "title": "Canadian Bacon Puff",
-    "category": "Breakfast / Brunch",
+    "category": "Breakfast & Brunch",
     "ingredients": [
       "Butter",
       "16 pieces white bread - crusts removed",
-      "8 ounce. cheddar cheese - 1 pkg Old English Sharp",
+      "8 ounces cheddar cheese - 1 package Old English Sharp",
       "8 slices Canadian bacon",
       "6 eggs, beaten",
       "4 cups milk - whole",
-      "2 tsps salt",
+      "2 teaspoons salt",
       "1/4 teaspoon white pepper"
     ],
     "directions": [
@@ -1458,27 +1458,27 @@
       "Butter 9x13 dish.",
       "Arrange 8 slices of bread in dish.",
       "Cut cheese into 8 slices - place on bread.",
-      "Place C. bacon over cheese - top with remaining bread slices.",
-      "Combine eggs, milk, salt & white pepper - mix.",
-      "Pour over bread - cover & refrigerate overnight.",
-      "Bake @ 350 (preheat).",
-      "Place dish in water bath & bake 1 hr. or until puffy & brown.",
+      "Place Canadian bacon over cheese - top with remaining bread slices.",
+      "Combine eggs, milk, salt and white pepper - mix.",
+      "Pour over bread - cover and refrigerate overnight.",
+      "Bake at 350 (preheat).",
+      "Place dish in water bath and bake 1 hour or until puffy and brown.",
       "Cut into 8 servings."
     ],
-    "notes": "Serve with currant jelly on side. Recipe by Laura Gaugh, 11/88.",
+    "notes": "Serve with currant jelly on side. Recipe by Laura Gough, 11/88.",
     "pdfLink": "pdfs/Canadian Bacon Puff.pdf"
   },
   {
     "id": 60,
     "title": "Carrot Cheese Ring",
-    "category": "Side Dish",
+    "category": "Side Dishes",
     "ingredients": [
       "2 cups cooked carrots",
       "2 cups grated cheese",
       "3 eggs",
       "1/2 cup sweet milk",
       "1/2 stick butter",
-      "Salt & pepper"
+      "Salt and pepper"
     ],
     "directions": [
       "Add butter to hot mashed carrots.",
@@ -1486,15 +1486,15 @@
       "Mix well.",
       "Place in well greased ring mold or casserole.",
       "Set in pan of hot water.",
-      "Bake about 40 mins. or until set at 325\u00b0\u2013350\u00b0."
+      "Bake about 40 minutes or until set at 325°–350°."
     ],
     "notes": "There are notations for a 1 1/2 recipe: (3) cups carrots, (3) cups cheese, (4) eggs, (3/4 cup) milk, (3/4 stick) butter. Recipe attributed to Mary Kaye Longe.",
     "pdfLink": "pdfs/Carrot Cheese Ring.pdf"
   },
   {
     "id": 61,
-    "title": "Carrot Soup with Orange and Tarragon",
-    "category": "Soup",
+    "title": "Carrot Soup With Orange And Tarragon",
+    "category": "Soups",
     "ingredients": [
       "1 tablespoon butter",
       "1 1-pound bag classic-cut peeled carrots",
@@ -1506,7 +1506,7 @@
       "Fresh tarragon sprigs"
     ],
     "directions": [
-      "Melt butter in heavy large pot over medium heat. Add carrots and onion; saut\u00e9 until onion is soft, about 8 minutes.",
+      "Melt butter in heavy large pot over medium heat. Add carrots and onion; sauté until onion is soft, about 8 minutes.",
       "Add broth; cover and bring to boil. Reduce heat, uncover, and simmer until carrots are tender, about 10 minutes.",
       "Working in batches, puree soup in blender until very smooth. Return soup to pot.",
       "Stir in orange juice, brandy, and chopped tarragon. Simmer 5 minutes for flavors to blend.",
@@ -1517,17 +1517,17 @@
   },
   {
     "id": 62,
-    "title": "Carrots - Hot or Cold",
-    "category": "Side Dish / Vegetable",
+    "title": "Carrots - Hot Or Cold",
+    "category": "Side Dishes",
     "ingredients": [
-      "2 lbs sliced carrots",
-      "1 med. onion",
+      "2 pounds sliced carrots",
+      "1 medium onion",
       "1 green pepper",
       "1 can tomato soup",
       "1 cup sugar",
       "3/4 cup oil",
       "1/2 cup vinegar",
-      "1 tablespoon. Worcestershire sauce",
+      "1 tablespoon Worcestershire sauce",
       "1 teaspoon mustard",
       "salt/pepper to taste"
     ],
@@ -1547,9 +1547,9 @@
     "ingredients": [
       "1/2 cup light corn syrup",
       "1/2 cup brandy",
-      "1 bottle (4/5 qt. 25 ounce.) Sauterne",
-      "1 bottle (28 ounce.) carbonated H2O",
-      "1 bottle (4/5 qt.) Champagne",
+      "1 bottle (4/5 quart 25 ounces) Sauterne",
+      "1 bottle (28 ounces) carbonated water",
+      "1 bottle (4/5 quart) Champagne",
       "Ice ring - jell from 1 lemon"
     ],
     "directions": [
@@ -1557,13 +1557,13 @@
       "Stir in Sauterne",
       "Add soda and champagne"
     ],
-    "notes": "Very good. Recipe from the kitchen of: Jane Keyer. Serves: 25-4 ounce. servings.",
+    "notes": "Very good. Recipe from the kitchen of: Jane Keyer. Serves: 25-4 ounce servings.",
     "pdfLink": "pdfs/Celebration Punch.pdf"
   },
   {
     "id": 64,
     "title": "Celery Salt Dressing",
-    "category": "Dressing",
+    "category": "Sauces & Condiments",
     "ingredients": [
       "1/3 cup cider vinegar",
       "1/3 cup sugar",
@@ -1605,10 +1605,10 @@
   },
   {
     "id": 66,
-    "title": "Challah Bread  Jewish Bread",
-    "category": "Bread",
+    "title": "Challah Bread Jewish Bread",
+    "category": "Breads",
     "ingredients": [
-      "2 lbs flour (7 cups)",
+      "2 pounds flour (7 cups)",
       "3/4 cup sugar",
       "3/4 cup oil",
       "1 teaspoon salt",
@@ -1623,7 +1623,7 @@
       "Knead and shape",
       "Brush with egg yolk and poppy seeds",
       "Let rise",
-      "Bake at 350\u00b0 for 35-40 minutes"
+      "Bake at 350° for 35-40 minutes"
     ],
     "notes": "Recipe from the kitchen of Aunt Lydia",
     "pdfLink": "pdfs/Challah Bread  Jewish Bread.pdf"
@@ -1635,11 +1635,11 @@
     "ingredients": [
       "1/2 cup powdered sugar",
       "5 lemons (juice only)",
-      "3 oranges, sliced & halved",
+      "3 oranges, sliced and halved",
       "12 cherries",
       "6 slices pineapple, diced",
-      "3 qts. champagne or Sauterne",
-      "1 qt. orange sherbet"
+      "3 quarts champagne or Sauterne",
+      "1 quart orange sherbet"
     ],
     "directions": [
       "Mix in punch bowl."
@@ -1652,13 +1652,13 @@
     "title": "Charleston Pickled Shrimp",
     "category": "Appetizers",
     "ingredients": [
-      "1 lb shrimp, cooked",
+      "1 pound shrimp, cooked",
       "2 medium onions, sliced in rings",
       "3 or 4 bay leaves (broken)",
       "Capers",
       "1 cup salad oil",
       "1 teaspoon dry mustard",
-      "2 tablespoon Worcestershire",
+      "2 tablespoons Worcestershire",
       "1/3 cup catsup",
       "1/3 cup vinegar",
       "Red pepper",
@@ -1676,12 +1676,12 @@
   },
   {
     "id": 69,
-    "title": "Cheese Fondue with Pesto",
-    "category": "Appetizer",
+    "title": "Cheese Fondue With Pesto",
+    "category": "Appetizers",
     "ingredients": [
       "1 clove garlic, split",
       "1 cup dry white wine",
-      "1 1/2 pound Gruyere or domestic Swiss cheese, shredded",
+      "1 1/2 pounds Gruyere or domestic Swiss cheese, shredded",
       "2 teaspoons flour",
       "2 tablespoons kirsch (a cherry-flavored liqueur, optional)",
       "1/3 cup pesto sauce",
@@ -1704,19 +1704,19 @@
     "category": "Appetizers",
     "ingredients": [
       "2 cups sifted flour",
-      "1/2 t. salt",
+      "1/2 teaspoon salt",
       "2 cups grated sharp cheese",
       "2 sticks butter",
-      "1/2 t. ground red pepper",
-      "2 1/4 c. Rice Krispies"
+      "1/2 teaspoon ground red pepper",
+      "2 1/4 cups Rice Krispies"
     ],
     "directions": [
-      "Using mixer, cream butter & cheese.",
-      "Add red pepper to flour & mix this gradually to cheese mixture.",
-      "Add Rice Krispies & work into cheese mixture using hand or spoon.",
-      "Roll into sm. balls (marble size).",
-      "Place on cookie sheet & flatten c fork.",
-      "Bake @ 300\u00b0 for 10-15 minutes."
+      "Using mixer, cream butter and cheese.",
+      "Add red pepper to flour and mix this gradually to cheese mixture.",
+      "Add Rice Krispies and work into cheese mixture using hand or spoon.",
+      "Roll into small balls (marble size).",
+      "Place on cookie sheet and flatten with fork.",
+      "Bake @ 300° for 10-15 minutes."
     ],
     "notes": "Makes about 100",
     "pdfLink": "pdfs/Cheese Krispies.pdf"
@@ -1726,7 +1726,7 @@
     "title": "Cheese Log",
     "category": "Appetizers",
     "ingredients": [
-      "8 ounce. cream cheese",
+      "8 ounces cream cheese",
       "1/2 cup margarine",
       "3 tablespoons onion, grated or finely chopped",
       "1 cup pecans, finely chopped",
@@ -1743,29 +1743,29 @@
   },
   {
     "id": 72,
-    "title": "Cheese and Sausage Brunch",
-    "category": "Brunch",
+    "title": "Cheese And Sausage Brunch",
+    "category": "Breakfast & Brunch",
     "ingredients": [
       "6 slices white bread",
       "2 cups grated cheddar cheese",
-      "1 lb. pork sausage, brown & drain",
+      "1 pound pork sausage, brown and drain",
       "2 cups grated monterey jack cheese",
       "1 small can diced green chilies",
       "8 eggs",
       "2 cups milk",
-      "1 teaspoon. pepper",
-      "1/4 teaspoon. paprika",
-      "1/4 teaspoon. dry mustard"
+      "1 teaspoon pepper",
+      "1/4 teaspoon paprika",
+      "1/4 teaspoon dry mustard"
     ],
     "directions": [
       "Trim crusts from bread and butter one side.",
       "Place buttered side down in a 9x13 pan.",
-      "Layer cheddar cheese, sausage, monterey jack & chilies.",
-      "Beat eggs & milk with pepper, paprika & mustard.",
+      "Layer cheddar cheese, sausage, monterey jack and chilies.",
+      "Beat eggs and milk with pepper, paprika and mustard.",
       "Pour over layers.",
       "Refrigerate overnight covered with foil.",
-      "Bake uncovered, 350\u00b0 for 50 min.",
-      "Let stand 10 min. before cutting."
+      "Bake uncovered, 350° for 50 minutes.",
+      "Let stand 10 minutes before cutting."
     ],
     "notes": "From: Geri",
     "pdfLink": "pdfs/Cheese and Sausage Brunch.pdf"
@@ -1773,7 +1773,7 @@
   {
     "id": 73,
     "title": "Cheesy Mashed Potato Casserole",
-    "category": "Side dish",
+    "category": "Side Dishes",
     "ingredients": [
       "1 1/2 cups water",
       "2 tablespoons butter",
@@ -1799,18 +1799,18 @@
   {
     "id": 74,
     "title": "Cherry Delight",
-    "category": "Salad",
+    "category": "Salads",
     "ingredients": [
       "1 can Eagle Brand milk",
       "1 can cherry pie filling",
-      "1 med size can crushed pineapple (drained)",
-      "1 teas lemon juice",
-      "1 pkg Dream Whip"
+      "1 medium size can crushed pineapple (drained)",
+      "1 teaspoon lemon juice",
+      "1 package Dream Whip"
     ],
     "directions": [
-      "Prepare Dream Whip and fold into above mixture (use Cool Whip 8 oz).",
-      "Pour into lg. jello mold or cake pan.",
-      "Freeze until a few mins. before serving."
+      "Prepare Dream Whip and fold into above mixture (use Cool Whip 8 ounces).",
+      "Pour into large jello mold or cake pan.",
+      "Freeze until a few minutes before serving."
     ],
     "notes": "A favorite recipe from Nancy Dawson. Also attributed to Joan Evile Warren.",
     "pdfLink": "pdfs/Cherry Delight.pdf"
@@ -1818,17 +1818,17 @@
   {
     "id": 75,
     "title": "Cherry Shakes - Blends",
-    "category": "Beverages/Desserts",
+    "category": "Beverages",
     "ingredients": [
-      "1-3 ounce pkg cherry gelatin",
+      "1-3 ounce package cherry gelatin",
       "1-21 ounce can cherry pie filling",
-      "1 qt vanilla ice cream",
+      "1 quart vanilla ice cream",
       "milk - about 8 cups"
     ],
     "directions": [
       "Pour 1 cup boiling water and jello into blender container, cover and blend until smooth.",
       "Chill.",
-      "At serving time, divide cherry mixture evenly between 12-14 12 oz glasses.",
+      "At serving time, divide cherry mixture evenly between 12-14 12 ounce glasses.",
       "Add a scoop of ice cream.",
       "Stir to muddle.",
       "Fill glasses with milk.",
@@ -1839,11 +1839,11 @@
   },
   {
     "id": 76,
-    "title": "CherryCranberry Relish",
-    "category": "Condiment/Relish",
+    "title": "Cherrycranberry Relish",
+    "category": "Sauces & Condiments",
     "ingredients": [
-      "1/2 # shallots (whole)",
-      "1 T unsalted butter",
+      "1/2 pound shallots (whole)",
+      "1 tablespoon unsalted butter",
       "3/4 cup sugar",
       "1/2 cup white wine vinegar",
       "1 cup dry white wine",
@@ -1853,12 +1853,12 @@
       "1/2 cup water"
     ],
     "directions": [
-      "In sauce pan, place shallots in boiling water. Boil 1-2 mins, drain & peel; separate into cloves.",
-      "In heavy saucepan cook shallots, butter to coat well then add sugar + 1 T white vinegar - cook until caramelized.",
-      "Add remaining vinegar + salt - boil 1 min.",
-      "Add cherries + white wine - cook until tender 45 mins.",
-      "Then add cranberries + water - cook until cranberries pop open about 1-2 mins.",
-      "Cool. Serve @ rm temp. May be made ahead (refrig)."
+      "In sauce pan, place shallots in boiling water. Boil 1-2 minutes, drain and peel; separate into cloves.",
+      "In heavy saucepan cook shallots, butter to coat well then add sugar + 1 tablespoon white vinegar - cook until caramelized.",
+      "Add remaining vinegar + salt - boil 1 minute.",
+      "Add cherries + white wine - cook until tender 45 minutes.",
+      "Then add cranberries + water - cook until cranberries pop open about 1-2 minutes.",
+      "Cool. Serve at room temperature. May be made ahead (refrigerate)."
     ],
     "notes": "Lauren G. 1998, Excellent",
     "pdfLink": "pdfs/CherryCranberry Relish.pdf"
@@ -1866,21 +1866,21 @@
   {
     "id": 77,
     "title": "Chicken Cheese Soup",
-    "category": "Soup",
+    "category": "Soups",
     "ingredients": [
       "1 cup grated carrots",
       "1/4 cup chopped onions",
-      "4 T butter",
+      "4 tablespoons butter",
       "1/4 cup flour",
-      "2 c milk",
-      "1 3/4 c chicken broth",
-      "1 c cooked chicken",
-      "1 T white wine",
+      "2 cups milk",
+      "1 3/4 cups chicken broth",
+      "1 cup cooked chicken",
+      "1 tablespoon white wine",
       "1/2 teaspoon Worcestershire sauce",
       "1 cup grated sharp cheese"
     ],
     "directions": [
-      "Saute carrots, onions & butter together until onions are clear.",
+      "Saute carrots, onions and butter together until onions are clear.",
       "Add flour, milk, chicken broth - cook until thick.",
       "Add chicken, white wine, Worcestershire sauce and cheese.",
       "Cook until blended and heated through."
@@ -1903,7 +1903,7 @@
     ],
     "directions": [
       "Boil chicken with carrots, celery, onions, and seasonings.",
-      "Boil tiny noodles in separate H2O.",
+      "Boil tiny noodles in separate water.",
       "When finished cooking, strain the stock.",
       "Add the drained noodles to the stock.",
       "Serve the soup with a sprinkle of fresh chopped parsley."
@@ -1914,29 +1914,29 @@
   {
     "id": 79,
     "title": "Chili Con Queso - Bunny Lazina",
-    "category": "Appetizer",
+    "category": "Appetizers",
     "ingredients": [
-      "3 lg. onions",
+      "3 large onions",
       "3 cloves of garlic",
-      "3 sm. cans of green chili peppers",
+      "3 small cans of green chili peppers",
       "3 #2 cans of tomatoes",
-      "2# Velveeta cheese",
+      "2 pounds Velveeta cheese",
       "Salt to taste",
       "Small amount of butter"
     ],
     "directions": [
       "Grind onions and garlic in food chopper, but keep peppers separate and grind last.",
       "Brown onions and garlic in a small amount of butter first, then add peppers.",
-      "Drain tomatoes (do not use any of the juice) and add to the above mixture and simmer 1 hr.",
+      "Drain tomatoes (do not use any of the juice) and add to the above mixture and simmer 1 hour.",
       "Add cheese cut in chunks and cook until cheese is melted."
     ],
-    "notes": "Can be done ahead and reheated in a double boiler. Makes 2 qts.",
+    "notes": "Can be done ahead and reheated in a double boiler. Makes 2 quarts.",
     "pdfLink": "pdfs/Chili Con Queso - Bunny Lazina.pdf"
   },
   {
     "id": 80,
-    "title": "Chilled Vidalia Onion and Watercress Soup",
-    "category": "Soup",
+    "title": "Chilled Vidalia Onion And Watercress Soup",
+    "category": "Soups",
     "ingredients": [
       "2 1/2 pounds Vidalia or other sweet onions, chopped coarse",
       "3 tablespoons vegetable oil",
@@ -1950,7 +1950,7 @@
       "In a heavy kettle cook onions in oil, covered, over moderate heat, stirring occasionally, 30 minutes.",
       "Reduce heat to moderately low and cook onions, uncovered, stirring, until just pale golden, about 45 minutes.",
       "Add potato, broth, watercress, and sage and simmer, covered partially, 15 minutes.",
-      "In a blender pur\u00e9e soup in batches and transfer as pur\u00e9ed to a bowl.",
+      "In a blender purée soup in batches and transfer as puréed to a bowl.",
       "Stir in half-and-half and salt and pepper to taste.",
       "Chill soup, covered, at least 4 hours or overnight."
     ],
@@ -1959,14 +1959,14 @@
   },
   {
     "id": 81,
-    "title": "Chive Biscuits with Cheddar Cheese",
-    "category": "Breads / Biscuits",
+    "title": "Chive Biscuits With Cheddar Cheese",
+    "category": "Breads",
     "ingredients": [
-      "2 c. biscuit mix",
-      "3/4 c. cheddar cheese, shredded",
-      "1/4 c. fresh chives, chopped",
-      "1/2 to 1 c. milk",
-      "2 T. milk for brushing biscuit tops"
+      "2 cups biscuit mix",
+      "3/4 cup cheddar cheese, shredded",
+      "1/4 cup fresh chives, chopped",
+      "1/2 to 1 cup milk",
+      "2 tablespoons milk for brushing biscuit tops"
     ],
     "directions": [
       "Blend biscuit mix, cheese and chives.",
@@ -1976,20 +1976,20 @@
       "Place on lightly greased baking sheet and brush tops with milk.",
       "Bake at 450 for 10 minutes or until golden brown."
     ],
-    "notes": "\u00a91995 Shenandoah Growers \u2014 Harrisonburg, Virginia",
+    "notes": "©1995 Shenandoah Growers — Harrisonburg, Virginia",
     "pdfLink": "pdfs/Chive Biscuits with Cheddar Cheese.pdf"
   },
   {
     "id": 82,
-    "title": "Choc. Sauce (for Cottage Pudding)",
-    "category": "Sauce",
+    "title": "Choc. Sauce (For Cottage Pudding)",
+    "category": "Sauces & Condiments",
     "ingredients": [
-      "2 c. white sugar",
-      "2 ounce. choc.",
-      "3 T. corn starch",
-      "1 1/2 c. boiling H2O",
+      "2 cups white sugar",
+      "2 ounces chocolate",
+      "3 tablespoons corn starch",
+      "1 1/2 cups boiling water",
       "1 lump butter",
-      "2 teaspoon. vanilla"
+      "2 teaspoons vanilla"
     ],
     "directions": [
       "Mix all together.",
@@ -2001,18 +2001,18 @@
   {
     "id": 83,
     "title": "Choc. Sauce - Joan Eisele",
-    "category": "Dessert Sauce",
+    "category": "Sauces & Condiments",
     "ingredients": [
       "1/2 cup butter",
-      "4 sq. choc.",
-      "4 T. white Karo",
-      "1 1/2 cup white sugar",
+      "4 squares chocolate",
+      "4 tablespoons white Karo",
+      "1 1/2 cups white sugar",
       "dash salt",
       "1/2 cup milk"
     ],
     "directions": [
       "Mix well until butter melts.",
-      "Then add 1/2 cup milk - stir const. until it boils and thickens."
+      "Then add 1/2 cup milk - stir constantly until it boils and thickens."
     ],
     "notes": "The recipe calls for 4 squares of chocolate (likely baking chocolate).",
     "pdfLink": "pdfs/Choc. Sauce - Joan Eisele.pdf"
@@ -2020,9 +2020,9 @@
   {
     "id": 84,
     "title": "Christmas Pecans",
-    "category": "Holiday / Snacks",
+    "category": "Appetizers",
     "ingredients": [
-      "1# Pecans",
+      "1 pound Pecans",
       "1 egg white",
       "1 teaspoon water",
       "1 cup sugar",
@@ -2030,7 +2030,7 @@
       "1 teaspoon salt"
     ],
     "directions": [
-      "Preheat oven to 300\u00b0.",
+      "Preheat oven to 300°.",
       "In a measuring cup mix sugar, salt and cinnamon, set aside.",
       "In a large bowl, whip egg white and water until frothy.",
       "Pour in pecans and mix until they are coated with egg white.",
@@ -2045,20 +2045,20 @@
     "title": "Christmas Red Cheese Ball",
     "category": "Appetizers",
     "ingredients": [
-      "1/2 lb sharp cheddar cheese (grated)",
-      "1-3 ounce pkg cream cheese",
-      "3 T sherry",
-      "1/4 c chopped ripe olives",
-      "1/2 teas. worcestershire sauce",
-      "dash of ea. garlic, onion & celery salt",
+      "1/2 pound sharp cheddar cheese (grated)",
+      "1-3 ounce package cream cheese",
+      "3 tablespoons sherry",
+      "1/4 cup chopped ripe olives",
+      "1/2 teaspoon worcestershire sauce",
+      "dash of each garlic, onion and celery salt",
       "1/2 cup coarsely snipped dried parsley"
     ],
     "directions": [
       "Mix all ingredients well.",
       "Let it get firm in refrigerator.",
       "Mold into ball and roll in 1/2 cup coarsely snipped dried parsley.",
-      "30 mins. before serving remove to soften.",
-      "Serve w/ crackers or rye rounds."
+      "30 minutes before serving remove to soften.",
+      "Serve with crackers or rye rounds."
     ],
     "notes": "Recipe from the kitchen of Ann Luther.",
     "pdfLink": "pdfs/Christmas Red Cheese Ball.pdf"
@@ -2066,20 +2066,20 @@
   {
     "id": 86,
     "title": "Cinnamon Cream Syrup",
-    "category": "Breakfast / Syrups",
+    "category": "Sauces & Condiments",
     "ingredients": [
-      "1 c. sugar",
-      "1/2 c. light corn syrup",
-      "1/4 c. water",
-      "1/2 to 3/4 teaspoon. cinnamon",
-      "1/2 c. evaporated milk"
+      "1 cup sugar",
+      "1/2 cup light corn syrup",
+      "1/4 cup water",
+      "1/2 to 3/4 teaspoon cinnamon",
+      "1/2 cup evaporated milk"
     ],
     "directions": [
-      "In a small saucepan, combine sugar, syrup, water & cinnamon.",
-      "Bring to boil over med. heat, stirring constantly.",
-      "Cook & stir 2 min. more.",
-      "Remove from heat & cool 5 min.",
-      "Stir in the evap. milk.",
+      "In a small saucepan, combine sugar, syrup, water and cinnamon.",
+      "Bring to boil over medium heat, stirring constantly.",
+      "Cook and stir 2 minutes more.",
+      "Remove from heat and cool 5 minutes.",
+      "Stir in the evaporated milk.",
       "Serve warm over pancakes or waffles."
     ],
     "notes": "Yields 1 2/3 cups.",
@@ -2092,9 +2092,9 @@
     "ingredients": [
       "1/2 cup butter",
       "1 cup brown sugar",
-      "2 teaspoon. H2O",
+      "2 teaspoons water",
       "1 cup chopped pecans",
-      "1 T. cinnamon",
+      "1 tablespoon cinnamon",
       "2 cans refrigerator biscuits (10 count), cut into quarters"
     ],
     "directions": [
@@ -2103,7 +2103,7 @@
       "Heat until mixture begins to boil.",
       "Remove from heat. Add biscuits and stir.",
       "Pour mixture into greased tube cake pan.",
-      "Bake at 400\u00b0 for 15 mins.",
+      "Bake at 400° for 15 minutes.",
       "Unmold on serving platter immediately."
     ],
     "notes": "Serves 8-10. Recipe by Cheryl Bugen '86.",
@@ -2112,24 +2112,24 @@
   {
     "id": 88,
     "title": "Citrus-Sauced Green Beans",
-    "category": "Side Dish",
+    "category": "Side Dishes",
     "ingredients": [
-      "1 1/2 lbs green beans, steamed",
+      "1 1/2 pounds green beans, steamed",
       "3/4 cup orange juice",
-      "3 T. cream sherry",
-      "1 T. lemon juice",
-      "1 1/2 teaspoon cornstarch",
+      "3 tablespoons cream sherry",
+      "1 tablespoon lemon juice",
+      "1 1/2 teaspoons cornstarch",
       "1/2 cup lemon juice",
-      "1/4 cup veg-strength veg broth",
-      "1 T. sugar",
-      "1 1/2 teaspoon cornstarch",
-      "2 T. fresh dill or fresh fennel tops",
+      "1/4 cup vegetable-strength vegetable broth",
+      "1 tablespoon sugar",
+      "1 1/2 teaspoons cornstarch",
+      "2 tablespoons fresh dill or fresh fennel tops",
       "1/2 cup sliced almonds, toasted"
     ],
     "directions": [
-      "Orange Sherry Sauce: Combine orange juice, cream sherry, lemon juice, and 1 1/2 tsp cornstarch. Cook, stirring often, about 4 minutes. Remove from heat and cover to keep warm.",
-      "Lemon Dill Sauce: Combine 1/2 cup lemon juice, broth, sugar, and 1 1/2 tsp cornstarch. Cook, stirring often, about 4 minutes.",
-      "Remove from heat and add 2 T. fresh dill or fresh fennel tops.",
+      "Orange Sherry Sauce: Combine orange juice, cream sherry, lemon juice, and 1 1/2 teaspoons cornstarch. Cook, stirring often, about 4 minutes. Remove from heat and cover to keep warm.",
+      "Lemon Dill Sauce: Combine 1/2 cup lemon juice, broth, sugar, and 1 1/2 teaspoons cornstarch. Cook, stirring often, about 4 minutes.",
+      "Remove from heat and add 2 tablespoons fresh dill or fresh fennel tops.",
       "Add 1/2 cup sliced almonds (toasted) or fresh dill sprigs or fennel tops to the beans."
     ],
     "notes": "Recipe from the kitchen of Patty Jellison. Serves 6-8.",
@@ -2140,19 +2140,19 @@
     "title": "Clam Canapes",
     "category": "Appetizers",
     "ingredients": [
-      "1 pkg cream cheese (large)",
+      "1 package cream cheese (large)",
       "1 can minced clams, drained",
       "salt to taste",
       "dash red pepper",
-      "3/4 teasp. Worcestershire sauce",
-      "1 teasp. minced green onion"
+      "3/4 teaspoon Worcestershire sauce",
+      "1 teaspoon minced green onion"
     ],
     "directions": [
       "Whip cheese with fork.",
-      "Add clams & mix well.",
-      "Add rest & mix well.",
+      "Add clams and mix well.",
+      "Add rest and mix well.",
       "Place in refrigerator in a covered dish.",
-      "When ready to serve, heap generously on white salty crackers & bake at 300\u00b0 for 20 min.",
+      "When ready to serve, heap generously on white salty crackers and bake at 300° for 20 minutes.",
       "Sprinkle paprika for looks!"
     ],
     "notes": "",
@@ -2161,25 +2161,25 @@
   {
     "id": 90,
     "title": "Coffee Cake",
-    "category": "Dessert / Cake",
+    "category": "Desserts",
     "ingredients": [
       "1 cup sugar",
       "2 cups flour",
-      "2 teaspoon. baking powder",
-      "1 teaspoon. salt",
-      "2/3 c. melted butter",
+      "2 teaspoons baking powder",
+      "1 teaspoon salt",
+      "2/3 cup melted butter",
       "2 eggs",
       "1 cup milk",
       "1 cup sugar (for topping)",
-      "2 teaspoon. cinnamon (for topping)",
-      "2 c. flour (for topping)",
-      "1/3 c. oil (for topping)"
+      "2 teaspoons cinnamon (for topping)",
+      "2 cups flour (for topping)",
+      "1/3 cup oil (for topping)"
     ],
     "directions": [
       "Mix ingredients together.",
       "Pour into large cookie sheet with sides.",
       "Add topping.",
-      "Bake 20 mins @ 350\u00b0.",
+      "Bake 20 minutes @ 350°.",
       "Sprinkle with powdered sugar while still hot."
     ],
     "notes": "Recipe by Donna Dawson, 1986. Marked as 'VG'.",
@@ -2188,7 +2188,7 @@
   {
     "id": 91,
     "title": "Coffee Liqueur",
-    "category": "Beverages / Liqueurs",
+    "category": "Beverages",
     "ingredients": [
       "4 cups sugar",
       "2 ounces instant coffee",
@@ -2209,21 +2209,21 @@
   {
     "id": 92,
     "title": "Coffee Mocha",
-    "category": "Beverage / Punch",
+    "category": "Beverages",
     "ingredients": [
-      "Nescafe (3 or 4 ounce. size)",
-      "1 can Hershey choc. syrup",
+      "Nescafe (3 or 4 ounce size)",
+      "1 can Hershey chocolate syrup",
       "dash of vanilla",
-      "8 ounce. Jamaica Rum (add 2 more cups)",
-      "4 1/2 qts milk",
-      "1/2 gal vanilla or coffee ice cream"
+      "8 ounces Jamaica Rum (add 2 more cups)",
+      "4 1/2 quarts milk",
+      "1/2 gallon vanilla or coffee ice cream"
     ],
     "directions": [
-      "Mix Nescafe w/ 1 qt boiling H2O.",
-      "Add 3 qts cold water.",
-      "Add choc. syrup, vanilla & rum.",
+      "Mix Nescafe with 1 quart boiling water.",
+      "Add 3 quarts cold water.",
+      "Add chocolate syrup, vanilla and rum.",
       "Add milk to above before serving.",
-      "Top w/ softened ice cream."
+      "Top with softened ice cream."
     ],
     "notes": "Recipe attributed to 'Des Barrons (1963 - H. Blis)'.",
     "pdfLink": "pdfs/Coffee Mocha.pdf"
@@ -2231,38 +2231,38 @@
   {
     "id": 93,
     "title": "Corn Pudding",
-    "category": "Side Dish",
+    "category": "Side Dishes",
     "ingredients": [
       "2 sticks unsalted butter (melted)",
       "1 can whole kernel corn (drained)",
       "1 can creamed corn",
       "1 cup sour cream",
-      "1 pkg. Jiffy corn muffin mix"
+      "1 package Jiffy corn muffin mix"
     ],
     "directions": [
       "Mix together.",
       "Pour into a dish sprayed with Pam.",
-      "Bake at 350\u00b0 for approx. 55 minutes."
+      "Bake at 350° for approximately 55 minutes."
     ],
-    "notes": "Recipe attributed to Peggy Sall\u00e9, Manakin.",
+    "notes": "Recipe attributed to Peggy Sallé, Manakin.",
     "pdfLink": "pdfs/Corn Pudding.pdf"
   },
   {
     "id": 94,
     "title": "Cornbread Dressing - Hodge",
-    "category": "Sides",
+    "category": "Side Dishes",
     "ingredients": [
-      "1 1/2 c. cornmeal",
-      "1 c. flour",
-      "1 teaspoon. salt",
-      "1 teaspoon. sugar",
-      "3 teaspoon. baking powder",
-      "3 teaspoon. melted shortening",
+      "1 1/2 cups cornmeal",
+      "1 cup flour",
+      "1 teaspoon salt",
+      "1 teaspoon sugar",
+      "3 teaspoons baking powder",
+      "3 teaspoons melted shortening",
       "Milk (enough to make not too thick)",
-      "2 med. size onions",
-      "1/2 c. chopped celery",
-      "1 teaspoon. celery seed (if used)",
-      "1 teaspoon. fresh crumbled sage",
+      "2 medium size onions",
+      "1/2 cup chopped celery",
+      "1 teaspoon celery seed (if used)",
+      "1 teaspoon fresh crumbled sage",
       "Poultry seasoning (to taste)",
       "2 eggs",
       "Broth (enough to make the dressing soupy)",
@@ -2270,12 +2270,12 @@
     ],
     "directions": [
       "Make cornbread the night before: Combine cornmeal, flour, salt, sugar, baking powder, shortening, and enough milk to make a batter ready to pour into a pan.",
-      "Pour into a greased pan and bake at 400\u00b0.",
+      "Pour into a greased pan and bake at 400°.",
       "The next day, crumble the cornbread into a bowl (can also use biscuits, which are better).",
       "Chop onions and add to the bowl with celery, celery seed, sage, and poultry seasoning.",
       "Stir in 2 eggs and enough broth to make the dressing soupy so it won't be too dry when done.",
       "Dot with butter before putting into the oven.",
-      "Cook dressing until it bubbles at 350\u00b0."
+      "Cook dressing until it bubbles at 350°."
     ],
     "notes": "Serve with giblet gravy.",
     "pdfLink": "pdfs/Cornbread Dressing - Hodge.pdf"
@@ -2283,22 +2283,22 @@
   {
     "id": 95,
     "title": "Corny Pudding",
-    "category": "Dessert",
+    "category": "Desserts",
     "ingredients": [
       "2 eggs, beaten",
-      "1 tablespoon. flour",
-      "3 tablespoon. butter, melted",
-      "1/3 c. sugar",
-      "1 c. milk (not quite full)",
-      "1 tablespoon. vanilla",
-      "1/2 teaspoon. salt",
-      "1 can (16oz) corn, drained",
+      "1 tablespoon flour",
+      "3 tablespoons butter, melted",
+      "1/3 cup sugar",
+      "1 cup milk (not quite full)",
+      "1 tablespoon vanilla",
+      "1/2 teaspoon salt",
+      "1 can (16 ounces) corn, drained",
       "Dash nutmeg (optional)"
     ],
     "directions": [
       "Mix all ingredients except corn. Blend well.",
       "Add corn and mix well.",
-      "Pour into greased baking dish and bake at 400\u00b0F for 40 min."
+      "Pour into greased baking dish and bake at 400°F for 40 minutes."
     ],
     "notes": "",
     "pdfLink": "pdfs/Corny Pudding.pdf"
@@ -2306,15 +2306,15 @@
   {
     "id": 96,
     "title": "Country Breakfast Casserole",
-    "category": "Breakfast",
+    "category": "Breakfast & Brunch",
     "ingredients": [
-      "12 ounce. pork sausage",
-      "1/2 c. finely chopped onion",
-      "4 c. frozen diced hash brown potatoes - thawed",
-      "1 1/2 c. shredded Colby/Monterey Jack cheese",
+      "12 ounces pork sausage",
+      "1/2 cup finely chopped onion",
+      "4 cups frozen diced hash brown potatoes - thawed",
+      "1 1/2 cups shredded Colby/Monterey Jack cheese",
       "3 beaten eggs",
-      "1 c. milk",
-      "salt & pepper",
+      "1 cup milk",
+      "salt and pepper",
       "salsa"
     ],
     "directions": [
@@ -2323,7 +2323,7 @@
       "In a bowl, combine eggs, milk, and seasonings.",
       "Pour over cheese.",
       "Cover and chill overnight.",
-      "Bake covered at 350\u00b0 oven for 50-55 minutes."
+      "Bake covered at 350° oven for 50-55 minutes."
     ],
     "notes": "Recipe from Jeri",
     "pdfLink": "pdfs/Country Breakfast Casserole.pdf"
@@ -2331,15 +2331,15 @@
   {
     "id": 97,
     "title": "Crab Bisque",
-    "category": "Soup",
+    "category": "Soups",
     "ingredients": [
-      "1/4 c chopped onions",
-      "2 T butter or margarine",
-      "1 1/2 c milk",
-      "8 ounce cream cheese",
-      "1 1/2 c crab meat",
-      "2 T cooking sherry",
-      "1/4 t salt"
+      "1/4 cup chopped onions",
+      "2 tablespoons butter or margarine",
+      "1 1/2 cups milk",
+      "8 ounces cream cheese",
+      "1 1/2 cups crab meat",
+      "2 tablespoons cooking sherry",
+      "1/4 teaspoon salt"
     ],
     "directions": [
       "Cook onions and butter/margarine together until onions are almost translucent.",
@@ -2356,18 +2356,18 @@
     "title": "Crab Dip",
     "category": "Appetizers",
     "ingredients": [
-      "1# crab or a little more",
+      "1 pound crab or a little more",
       "2 cups mayo",
       "Tabasco (to taste)",
-      "1 T horseradish",
+      "1 tablespoon horseradish",
       "Lemon rind",
       "Capers - drained (1/2 bottle)",
-      "Salt - 1/2 t.",
-      "1/2 c. cheese - opt."
+      "Salt - 1/2 teaspoon",
+      "1/2 cup cheese - optional"
     ],
     "directions": [
-      "Bake 350\u00b0 - 20 mins.",
-      "Serve w/ crackers."
+      "Bake 350° - 20 minutes.",
+      "Serve with crackers."
     ],
     "notes": "Recipe by Carol Bowery; marked as 'excellent'.",
     "pdfLink": "pdfs/Crab Dip.pdf"
@@ -2375,17 +2375,17 @@
   {
     "id": 99,
     "title": "Crab Mousse",
-    "category": "Appetizers/Molds",
+    "category": "Appetizers",
     "ingredients": [
       "1 can tomato soup, undiluted",
-      "1 pkg. Knox gelatin",
-      "1/4 c. water",
-      "8 ounce. cream cheese, softened",
-      "1/2 c. chopped onion",
-      "3/4 c. chopped celery",
-      "3/4 c. mayo (Hellmann's)",
+      "1 package Knox gelatin",
+      "1/4 cup water",
+      "8 ounces cream cheese, softened",
+      "1/2 cup chopped onion",
+      "3/4 cup chopped celery",
+      "3/4 cup mayo (Hellmann's)",
       "dash Worcestershire",
-      "7 1/2 ounce. can crab"
+      "7 1/2 ounce can crab"
     ],
     "directions": [
       "Heat soup to boiling, let cool a little.",
@@ -2402,13 +2402,13 @@
   },
   {
     "id": 100,
-    "title": "Crab or Lobster Bisque",
+    "title": "Crab Or Lobster Bisque",
     "category": "Soups",
     "ingredients": [
       "1 can cream of asparagus soup",
-      "1 can cream of chicken & mushroom soup",
-      "5-6 ounce pale dry sherry",
-      "1 can white crabmeat (6 ounce)"
+      "1 can cream of chicken and mushroom soup",
+      "5-6 ounces pale dry sherry",
+      "1 can white crabmeat (6 ounces)"
     ],
     "directions": [
       "Mix all together and heat thoroughly.",
@@ -2420,12 +2420,12 @@
   {
     "id": 101,
     "title": "Cranberry Jello Mold",
-    "category": "Salad / Dessert",
+    "category": "Desserts",
     "ingredients": [
       "2 3-ounce boxes strawberry jello",
       "1 large can crushed pineapple",
-      "1 can (16 ounce) whole cranberry sauce with berries",
-      "8 ounce sour cream",
+      "1 can (16 ounces) whole cranberry sauce with berries",
+      "8 ounces sour cream",
       "1 1/2 cups chopped pecans or walnuts",
       "1 1/2 cups boiling water"
     ],
@@ -2440,21 +2440,21 @@
   {
     "id": 102,
     "title": "Cranberry Nut Crescents",
-    "category": "Dessert/Pastry",
+    "category": "Desserts",
     "ingredients": [
       "1 (8 ounce) and 1 (4 ounce) Pillsbury Refrigerated Crescent Dinner Rolls",
       "1 tablespoon sugar",
-      "1/3 c. chopped sweetened dried cranberries",
+      "1/3 cup chopped sweetened dried cranberries",
       "1/3 chopped walnuts",
       "1 tablespoon powdered sugar"
     ],
     "directions": [
-      "Heat oven to 375\u00b0.",
+      "Heat oven to 375°.",
       "Unroll dough and separate into triangles.",
       "Sprinkle with sugar, cranberries, and walnuts. Press lightly into dough.",
       "Roll loosely from shortest end triangle to opposite point.",
       "Place on ungreased cookie sheet; curve into crescent shape.",
-      "Bake 11-13 min. or until golden brown.",
+      "Bake 11-13 minutes or until golden brown.",
       "Sprinkle powdered sugar over."
     ],
     "notes": "Can be shaped and covered up to two hours before baking. Best to serve warm.",
@@ -2463,15 +2463,15 @@
   {
     "id": 103,
     "title": "Cranberry Orange Relish",
-    "category": "Relish",
+    "category": "Sauces & Condiments",
     "ingredients": [
-      "1 # cranberries",
+      "1 pound cranberries",
       "1 large orange",
       "1 3/4 cups sugar"
     ],
     "directions": [
       "Put cranberries through food chopper also oranges.",
-      "Add sugar & chill."
+      "Add sugar and chill."
     ],
     "notes": "",
     "pdfLink": "pdfs/Cranberry Orange Relish.pdf"
@@ -2479,9 +2479,9 @@
   {
     "id": 104,
     "title": "Cranberry Salad",
-    "category": "Salad / Dessert",
+    "category": "Salads",
     "ingredients": [
-      "2 - 3oz boxes raspberry jello",
+      "2 - 3ounce boxes raspberry jello",
       "2 cups water",
       "2 cups fresh ground cranberries",
       "1 apple, chopped",
@@ -2501,8 +2501,8 @@
   },
   {
     "id": 105,
-    "title": "Cranberry and Walnut Muffins",
-    "category": "breakfast",
+    "title": "Cranberry And Walnut Muffins",
+    "category": "Breakfast & Brunch",
     "ingredients": [
       "2 cups flour",
       "1 cup sugar",
@@ -2534,13 +2534,13 @@
   {
     "id": 106,
     "title": "Cream Cheese Puff",
-    "category": "Dessert/Pastry",
+    "category": "Desserts",
     "ingredients": [
       "1 large white bread",
       "1 large package cream cheese",
       "1 egg yolk",
       "1/4 cup sugar",
-      "1/2 lb butter, melted",
+      "1/2 pound butter, melted",
       "1 tablespoon cinnamon",
       "1 cup sugar"
     ],
@@ -2551,7 +2551,7 @@
       "Roll up and cut in pieces.",
       "Dip in melted butter.",
       "Dip in a mixture of 1 tablespoon cinnamon and 1 cup sugar.",
-      "Bake at 400\u00b0 for 8-10 minutes."
+      "Bake at 400° for 8-10 minutes."
     ],
     "notes": "Recipe from the kitchen of Betty Korpeck. Noted as 'very good'.",
     "pdfLink": "pdfs/Cream Cheese Puff.pdf"
@@ -2559,7 +2559,7 @@
   {
     "id": 107,
     "title": "Cream Sauce Mix",
-    "category": "Sauces / Staples",
+    "category": "Sauces & Condiments",
     "ingredients": [
       "1 1/3 cups nonfat dry milk",
       "3/4 cup all-purpose flour",
@@ -2580,27 +2580,23 @@
   {
     "id": 108,
     "title": "Creamed Onions - Thanksgiving",
-    "category": "Side Dish",
+    "category": "Side Dishes",
     "ingredients": [
       "2-3 boiling onions a piece",
       "Salt (for boiling water)",
-      "4 T butter",
-      "3 T flour",
-      "1 1/2 cups half & half or regular milk",
+      "4 tablespoons butter",
+      "3 tablespoons flour",
+      "1 1/2 cups half and half or regular milk",
       "Pinch of paprika and nutmeg",
-      "Salt & pepper to taste",
+      "Salt and pepper to taste",
       "1 1/2 cups shredded cheddar cheese"
     ],
     "directions": [
       "Peel onions and boil until just tender in salt water.",
       "Drain well.",
-      "Melt butter in a heavy saucepan. Add flour and cook - slowly add milk stirring constantly with a wire whisk.",
-      "Continue cooking until it thickens.",
-      "Add cheese, paprika & nutmeg.",
-      "Pour over well-drained cooked onions that have been placed in a buttered casserole dish.",
-      "Heat in oven at 350\u00b0 for 30 minutes before serving."
+      "Melt butter in a heavy saucepan. Add flour and cook - slowly add milk stirring constantly."
     ],
-    "notes": "Happy Eating. Mom 11/97",
+    "notes": "Serve warm.",
     "pdfLink": "pdfs/Creamed Onions - Thanksgiving.pdf"
   },
   {
