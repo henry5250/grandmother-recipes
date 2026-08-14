@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grandmother's Recipe Archive</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="background-wrapper">
+    <div class="page-container">
+        <header>
+            <h1>Recipe Archive</h1>
+            <p class="subtitle">Search by dish, ingredient, or family member</p>
+            <input type="text" id="searchInput" placeholder="Try 'Clam Sauce' or 'Grandma Duffey'..." onkeyup="searchRecipes()">
+        </header>
+
+        <div id="recipeList" class="recipe-grid">
+            <!-- Results will appear here -->
+        </div>
+    </div>
+</div>
+
+<!-- The Recipe Card Popup -->
+<div id="recipeModal" class="modal">
+    <div class="modal-content">
+        <span class="close-button" onclick="closeModal()">&times;</span>
+        <div id="modalBody">
+            <!-- Recipe details will be injected here -->
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
