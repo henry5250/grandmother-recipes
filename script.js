@@ -51,11 +51,11 @@ function openRecipe(title) {
     const modal = document.getElementById('recipeModal');
     const body = document.getElementById('modalBody');
 
-    // Logic to only show notes if they exist
-    const notesHtml = (recipe.notes && recipe.notes.trim().length > 0) 
+    // Remove Note section if notes are missing or empty
+    const notesHtml = (recipe.notes && recipe.notes.trim()) 
         ? `<div class="notes-section">
             <h4>Personal Notes</h4>
-            <div class="content-text" style="font-family: Georgia, serif; font-style: italic;">${recipe.notes}</div>
+            <div class="content-text" style="font-family: Georgia, serif; font-style: italic; font-size:0.95rem;">${recipe.notes}</div>
            </div>` 
         : "";
     
@@ -70,7 +70,7 @@ function openRecipe(title) {
             <ol>${recipe.directions.map(d => `<li>${d}</li>`).join('')}</ol>
         </div>
         ${notesHtml}
-        <a href="${recipe.pdfLink}" target="_blank" class="pdf-btn">(View the Original Scanned Recipe)</a>
+        <a href="${recipe.pdfLink}" target="_blank" class="pdf-btn">View the Original Scanned Recipe</a>
     `;
     
     modal.style.display = "block";
