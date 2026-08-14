@@ -14,11 +14,18 @@
         <header>
             <h1>Recipe Archive</h1>
             <p class="subtitle">Search by dish, ingredient, or family member</p>
-            <input type="text" id="searchInput" placeholder="Try 'Clam Sauce' or 'Grandma Duffey'..." onkeyup="searchRecipes()">
+            <input type="text" id="searchInput" placeholder="Search the archive..." onkeyup="searchRecipes()">
         </header>
 
+        <!-- New Scrollable Tabs Section -->
+        <div class="category-wrapper">
+            <div id="categoryTabs" class="tabs-list">
+                <!-- Tabs will be injected here by JavaScript -->
+            </div>
+        </div>
+
         <div id="recipeList" class="recipe-grid">
-            <!-- Results will appear here -->
+            <!-- Alphabetized results will appear here -->
         </div>
     </div>
 </div>
