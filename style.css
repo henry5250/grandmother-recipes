@@ -69,4 +69,105 @@ header h1 {
     padding: 15px 5px 30px 5px;
     scrollbar-width: none;
 }
-.category-wrapper::-webkit-sc
+.category-wrapper::-webkit-scrollbar { display: none; }
+
+.tab {
+    flex: 0 0 auto;
+    padding: 10px 22px;
+    border-radius: 10px;
+    background: var(--paper-offwhite);
+    border: 1px solid var(--sand);
+    font-weight: bold;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.tab:hover {
+    background: #ffffff; /* Brightens on hover */
+    color: var(--clay);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+.tab.active {
+    background: var(--forest);
+    color: white;
+    border-color: var(--forest);
+}
+
+/* --- The Recipe Grid (Stable & Centered) --- */
+.recipe-grid { width: 100%; display: flex; flex-direction: column; gap: 18px; }
+
+.recipe-item {
+    background: var(--paper-offwhite);
+    padding: 35px;
+    border-radius: 25px;
+    border: 1px solid var(--sand);
+    cursor: pointer;
+    transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+    will-change: transform; /* Boosts performance for mobile */
+}
+.recipe-item:hover {
+    background: #fff;
+    transform: scale(1.02); /* Slight organic expansion */
+    box-shadow: 0 30px 60px rgba(58, 50, 43, 0.1);
+    border-color: var(--clay);
+}
+.recipe-item h3 { font-family: 'Georgia', serif; font-size: 1.6rem; margin: 0; }
+.recipe-item p { color: var(--clay); text-transform: uppercase; letter-spacing: 1px; font-size: 0.75rem; font-weight: bold; margin-top: 8px; }
+
+/* --- Modern Card Popup (Hidden Internal Scroll) --- */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 2000;
+    left: 0; top: 0; width: 100%; height: 100%;
+    background: rgba(58, 50, 43, 0.25);
+    backdrop-filter: blur(20px);
+}
+
+.modal-content {
+    background: #FDFCFB;
+    margin: 5vh auto;
+    padding: 60px;
+    width: 90%;
+    max-width: 650px;
+    border-radius: 40px;
+    max-height: 85vh;
+    overflow-y: auto; /* Internal Scroll */
+    scrollbar-width: none;
+    position: relative;
+    box-shadow: 0 50px 100px rgba(0,0,0,0.25);
+}
+.modal-content::-webkit-scrollbar { display: none; }
+
+.modal-content h1 { font-family: 'Georgia', serif; font-size: 2.2rem; line-height: 1.2; border-left: 5px solid var(--clay); padding-left: 20px; }
+.section-label { font-family: 'Georgia', serif; color: var(--forest); border-bottom: 1px solid var(--bg-linen); margin-top: 35px; font-weight: bold; font-size: 1.2rem; }
+.content-text { font-size: 1rem; line-height: 1.8; margin-top: 15px; }
+.content-text ul { padding-left: 18px; list-style-type: circle; }
+.content-text ol { padding-left: 18px; }
+
+.notes-container {
+    background: var(--bg-linen);
+    padding: 25px;
+    border-radius: 20px;
+    margin-top: 40px;
+    font-style: italic;
+    font-family: 'Georgia', serif;
+    font-size: 1rem;
+    color: #555;
+}
+
+.pdf-btn {
+    display: block;
+    width: fit-content;
+    margin: 60px auto 0 auto;
+    padding: 16px 35px;
+    background: var(--text-coffee);
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    transition: 0.4s;
+}
+.pdf-btn:hover { background: var(--clay); transform: translateY(-3px); }
