@@ -1,111 +1,194 @@
 :root {
-    --text-main: #584738;    /* Dark Brown */
-    --card-bg: #F1EADA;      /* Lightest Beige */
-    --accent: #B59E7D;       /* Warm Tan/Gold */
-    --border: #CEC1A8;       /* Sandy Beige */
-    --site-bg: #E5DED0;      /* Solid Warm Neutral Background */
-    --tab-gradient: linear-gradient(135deg, #F1EADA 0%, #CEC1A8 100%);
+    --primary-bg: #E5DED0;    /* Warm Clay Base */
+    --surface: #F1EADA;       /* Organic Light Beige */
+    --accent: #B59E7D;        /* Muted Earth Tan */
+    --text: #584738;          /* Charcoal Brown */
+    --border-soft: #CEC1A8;   /* Sandstone */
+    --shadow-color: rgba(88, 71, 56, 0.08);
 }
 
 body {
-    background-color: var(--site-bg);
+    background-color: var(--primary-bg);
     margin: 0;
-    font-family: 'Georgia', serif;
-    color: var(--text-main);
+    padding: 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: var(--text);
+    /* Soft vignette effect for depth */
+    background: radial-gradient(circle at center, #F1EADA 0%, #E5DED0 100%);
+    min-height: 100vh;
+}
+
+.background-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 80px 20px;
 }
 
 .page-container {
-    background-color: var(--card-bg);
+    background-color: transparent; /* Elements float directly on the vignette */
     width: 100%;
-    max-width: 850px;
-    margin: auto;
-    padding: 40px;
-    border-radius: 24px;
-    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+    max-width: 900px;
 }
 
-/* Tab Styling */
+/* Header & Search */
+header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+h1 {
+    font-weight: 300; /* Light/Thin Helvetica for Japandi look */
+    font-size: 4rem;
+    letter-spacing: -2px;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    color: var(--accent);
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+#searchInput {
+    width: 100%;
+    max-width: 500px;
+    padding: 15px 25px;
+    margin-top: 40px;
+    border: 1px solid var(--border-soft);
+    border-radius: 40px;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(5px);
+    font-family: 'Helvetica', sans-serif;
+    font-size: 1rem;
+    color: var(--text);
+    outline: none;
+    transition: all 0.4s ease;
+    box-shadow: 0 4px 15px var(--shadow-color);
+}
+
+#searchInput:focus {
+    background: rgba(255, 255, 255, 0.8);
+    width: 100%; /* Expands slightly on focus */
+    box-shadow: 0 10px 25px var(--shadow-color);
+}
+
+/* Tab Bar */
 .category-wrapper {
-    margin-bottom: 30px;
-    position: relative;
+    margin: 40px 0;
 }
 
 .tabs-list {
     display: flex;
     overflow-x: auto;
-    gap: 12px;
-    padding: 10px 5px;
-    scrollbar-width: none; /* Hides scrollbar on Firefox */
+    gap: 10px;
+    padding: 10px 0;
+    scrollbar-width: none;
 }
-
-.tabs-list::-webkit-scrollbar { display: none; } /* Hides scrollbar on Chrome/Safari */
 
 .tab {
     flex: 0 0 auto;
-    padding: 12px 24px;
-    border-radius: 50px;
-    background: var(--tab-gradient);
-    border: 1px solid var(--border);
+    padding: 10px 22px;
+    border-radius: 30px;
+    background: var(--surface);
+    border: 1px solid var(--border-soft);
+    color: var(--text);
+    font-size: 0.9rem;
     cursor: pointer;
-    font-size: 0.95rem;
-    font-weight: bold;
-    transition: all 0.3s ease;
-    white-space: nowrap;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .tab:hover {
+    background: #fff;
     transform: translateY(-2px);
-    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
 }
 
 .tab.active {
-    background: var(--text-main);
-    color: var(--card-bg);
-    border-color: var(--text-main);
+    background: var(--text);
+    color: var(--surface);
+    border-color: var(--text);
 }
 
-/* Modal and Content Fixes */
-.section-label {
-    font-weight: bold;
-    font-size: 1.3rem;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    color: var(--text-main);
-    /* Removed text-transform: uppercase */
+/* Recipe Grid & Hover Effect */
+.recipe-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
-/* Fixed Notes Section to be inline and not offset */
-.notes-area {
-    margin-top: 10px;
-    padding: 0; /* Removed padding and background */
-    font-style: italic;
-    color: var(--text-main);
+.recipe-item {
+    background: var(--surface);
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1); /* Ultra-smooth */
 }
 
-/* Modern Frost UI for the Popup */
+.recipe-item:hover {
+    transform: scale(1.03); /* Floating pop-out effect */
+    background: #fff;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05);
+    border: 1px solid var(--border-soft);
+}
+
+.recipe-item h3 {
+    margin: 0;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.recipe-item p {
+    margin-top: 8px;
+    font-size: 0.9rem;
+    color: var(--accent);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/* Modal UI */
 .modal {
     display: none;
     position: fixed;
-    z-index: 100;
+    z-index: 1000;
     left: 0; top: 0;
     width: 100%; height: 100%;
-    background-color: rgba(241, 234, 218, 0.6);
-    backdrop-filter: blur(12px); /* Frost effect */
-    overflow-y: auto;
+    background-color: rgba(88, 71, 56, 0.1);
+    backdrop-filter: blur(20px); /* Heavy modern frost */
 }
 
 .modal-content {
-    background-color: var(--card-bg);
-    margin: 40px auto;
-    padding: 50px;
+    background: var(--surface);
+    margin: 5vh auto;
+    padding: 60px;
     width: 85%;
-    max-width: 650px;
-    border-radius: 24px;
+    max-width: 700px;
+    border-radius: 30px;
     border: 1px solid white;
-    box-shadow: 0 20px 50px rgba(88, 71, 56, 0.2);
+    box-shadow: 0 40px 100px rgba(0, 0, 0, 0.15);
+    position: relative;
+    max-height: 80vh;
+    overflow-y: auto;
 }
 
-/* Standardized recipe list items */
-.recipe-item h3 { font-size: 1.4rem; margin: 0; font-weight: bold; }
-.recipe-item p { font-style: italic; color: var(--accent); margin-top: 4px; }
+.recipe-title { font-size: 3rem; letter-spacing: -1.5px; font-weight: 300; }
+.section-label { font-weight: bold; margin-top: 35px; color: var(--accent); }
+.content-text { line-height: 1.8; font-weight: 400; font-size: 1.1rem; }
+.notes-area { border-top: 1px solid var(--border-soft); margin-top: 40px; padding-top: 20px; font-style: italic; }
+
+.pdf-block {
+    display: inline-block;
+    margin-top: 50px;
+    padding: 15px 35px;
+    background: var(--text);
+    color: white;
+    text-decoration: none;
+    border-radius: 40px;
+    font-size: 0.9rem;
+    transition: all 0.3s;
+}
+
+.pdf-block:hover { transform: translateY(-3px); opacity: 0.9; }
+
+/* Hide scrollbar for tabs */
+.tabs-list::-webkit-scrollbar { display: none; }
