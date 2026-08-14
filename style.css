@@ -9,14 +9,19 @@
 
 /* Suede Texture Background */
 body {
-    background-color: var(--site-bg);
-    /* This creates a very fine 'grain' that looks like suede/paper */
+    /* Your requested background logic */
+    background-color: #d8c5b2;
     background-image: 
-        radial-gradient(circle at 50% 50%, rgba(206, 193, 168, 0.1) 0%, transparent 100%),
-        url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+        radial-gradient(rgba(255, 255, 255, 0.15) 1px, transparent 0),
+        radial-gradient(rgba(0, 0, 0, 0.07) 1px, transparent 0),
+        linear-gradient(135deg, rgba(216, 197, 178, 0.8), rgba(184, 163, 142, 0.9));
+    background-size: 4px 4px, 6px 6px, 100% 100%;
+    background-position: 0 0, 2px 2px, 0 0;
+    
+    /* Ensuring the text and font stay consistent */
     margin: 0;
     font-family: 'Georgia', serif;
-    color: var(--text-main);
+    color: #584738; /* Your dark brown text color */
 }
 
 .background-wrapper {
