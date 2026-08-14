@@ -10,9 +10,9 @@ fetch('recipes.json')
     });
 
 function setupCategories() {
-    const tabs = document.getElementById('categoryTabs');
+    const nav = document.getElementById('categoryTabs');
     const categories = ['All', ...new Set(allRecipes.map(r => r.category).filter(Boolean))].sort();
-    tabs.innerHTML = categories.map(cat => `
+    nav.innerHTML = categories.map(cat => `
         <div class="tab ${cat === 'All' ? 'active' : ''}" onclick="filterByCategory('${cat}', this)">${cat}</div>
     `).join('');
 }
@@ -30,7 +30,7 @@ function searchRecipes() {
         const mCat = currentCategory === 'All' || r.category === currentCategory;
         const mSearch = r.title.toLowerCase().includes(q) || 
                         r.ingredients.some(i => i.toLowerCase().includes(q)) ||
-                        r.notes.toLowerCase().includes(q);
+                        (r.notes && r.notes.toLowerCase().includes(q));
         return mCat && mSearch;
     });
     displayRecipes(filtered);
@@ -48,17 +48,17 @@ function displayRecipes(recipes) {
 
 function openRecipe(title) {
     const recipe = allRecipes.find(r => r.title === title);
-    const modal = document.getElementById('recipeModal');
     const body = document.getElementById('modalBody');
 
-    // Remove Note section if notes are missing or empty
-    const notesHtml = (recipe.notes && recipe.notes.trim()) 
-        ? `<div class="notes-section">
-            <h4>Personal Notes</h4>
-            <div class="content-text" style="font-family: Georgia, serif; font-style: italic; font-size:0.95rem;">${recipe.notes}</div>
+    // UX Decision: Check if notes exist. Only inject the div if content is present.
+    const hasNotes = recipe.notes && recipe.notes.trim().length > 0;
+    const notesHtml = hasNotes 
+        ? `<div class="notes-container">
+            <span style="display:block; text-transform:uppercase; font-size:0.7rem; font-weight:bold; color:var(--clay); margin-bottom:10px; font-family:sans-serif; font-style:normal; letter-spacing:1px;">Personal Notes</span>
+            ${recipe.notes}
            </div>` 
         : "";
-    
+
     body.innerHTML = `
         <h1>${recipe.title}</h1>
         <div class="section-label">Ingredients</div>
@@ -73,8 +73,8 @@ function openRecipe(title) {
         <a href="${recipe.pdfLink}" target="_blank" class="pdf-btn">View the Original Scanned Recipe</a>
     `;
     
-    modal.style.display = "block";
-    document.body.style.overflow = "hidden";
+    document.getElementById('recipeModal').style.display = "block";
+    document.body.style.overflow = "hidden"; // Prevent background scroll
 }
 
 function closeModal() {
@@ -82,4 +82,5 @@ function closeModal() {
     document.body.style.overflow = "auto";
 }
 
+// Global click-out to close
 window.onclick = e => { if(e.target.id == 'recipeModal') closeModal(); }
