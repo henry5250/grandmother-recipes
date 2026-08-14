@@ -1,205 +1,111 @@
 :root {
     --text-main: #584738;    /* Dark Brown */
     --card-bg: #F1EADA;      /* Lightest Beige */
-    --accent: #B59E7D;       /* Warm Gold/Tan */
+    --accent: #B59E7D;       /* Warm Tan/Gold */
     --border: #CEC1A8;       /* Sandy Beige */
-    --muted: #AAA396;        /* Muted Grey/Tan */
-    --site-bg: #F9F7F2;      /* Off-white */
+    --site-bg: #E5DED0;      /* Solid Warm Neutral Background */
+    --tab-gradient: linear-gradient(135deg, #F1EADA 0%, #CEC1A8 100%);
 }
 
-/* Suede Texture Background */
 body {
-    /* Your requested background logic */
-    background-color: #d8c5b2;
-    background-image: 
-        radial-gradient(rgba(255, 255, 255, 0.15) 1px, transparent 0),
-        radial-gradient(rgba(0, 0, 0, 0.07) 1px, transparent 0),
-        linear-gradient(135deg, rgba(216, 197, 178, 0.8), rgba(184, 163, 142, 0.9));
-    background-size: 4px 4px, 6px 6px, 100% 100%;
-    background-position: 0 0, 2px 2px, 0 0;
-    
-    /* Ensuring the text and font stay consistent */
+    background-color: var(--site-bg);
     margin: 0;
     font-family: 'Georgia', serif;
-    color: #584738; /* Your dark brown text color */
+    color: var(--text-main);
 }
 
-.background-wrapper {
-    display: flex;
-    justify-content: center;
-    padding: 60px 20px;
-}
-
-/* The Main Search Page Container */
 .page-container {
     background-color: var(--card-bg);
     width: 100%;
     max-width: 850px;
-    min-height: 100vh;
-    padding: 60px;
-    border-radius: 20px; /* Beveled look */
+    margin: auto;
+    padding: 40px;
+    border-radius: 24px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+}
+
+/* Tab Styling */
+.category-wrapper {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.tabs-list {
+    display: flex;
+    overflow-x: auto;
+    gap: 12px;
+    padding: 10px 5px;
+    scrollbar-width: none; /* Hides scrollbar on Firefox */
+}
+
+.tabs-list::-webkit-scrollbar { display: none; } /* Hides scrollbar on Chrome/Safari */
+
+.tab {
+    flex: 0 0 auto;
+    padding: 12px 24px;
+    border-radius: 50px;
+    background: var(--tab-gradient);
     border: 1px solid var(--border);
-    box-shadow: 
-        0 10px 30px rgba(88, 71, 56, 0.1), 
-        0 1px 3px rgba(88, 71, 56, 0.05); /* Soft double shadow */
-}
-
-h1 {
-    font-weight: bold;
-    font-size: 3.5rem;
-    text-align: center;
-    margin-bottom: 10px;
-    letter-spacing: -1px;
-}
-
-.subtitle {
-    text-align: center;
-    font-style: italic;
-    color: var(--muted);
-    margin-bottom: 40px;
-}
-
-#searchInput {
-    width: 100%;
-    padding: 18px;
-    font-size: 1.1rem;
-    border: 1.5px solid var(--border);
-    border-radius: 12px;
-    background: white;
-    font-family: 'Georgia', serif;
-    margin-bottom: 50px;
-    box-sizing: border-box;
-    outline: none;
-    transition: box-shadow 0.3s ease;
-}
-
-#searchInput:focus {
-    box-shadow: 0 0 0 4px rgba(181, 158, 125, 0.2);
-}
-
-/* Recipe Items on Main Page */
-.recipe-item {
-    padding: 25px;
-    border-radius: 12px;
-    margin-bottom: 10px;
     cursor: pointer;
-    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-    border: 1px solid transparent;
+    font-size: 0.95rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
 
-.recipe-item:hover {
-    background-color: white;
-    border-color: var(--border);
-    transform: translateY(-3px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+.tab:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
 }
 
-.recipe-item h3 {
-    margin: 0;
-    font-size: 1.4rem;
-    font-weight: bold; /* Bolded as requested */
+.tab.active {
+    background: var(--text-main);
+    color: var(--card-bg);
+    border-color: var(--text-main);
+}
+
+/* Modal and Content Fixes */
+.section-label {
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: var(--text-main);
+    /* Removed text-transform: uppercase */
+}
+
+/* Fixed Notes Section to be inline and not offset */
+.notes-area {
+    margin-top: 10px;
+    padding: 0; /* Removed padding and background */
+    font-style: italic;
     color: var(--text-main);
 }
 
-.recipe-item p {
-    margin: 5px 0 0 0;
-    font-style: italic; /* Italicized category */
-    font-size: 0.95rem;
-    color: var(--accent);
-}
-
-/* The Modal / Recipe Card */
+/* Modern Frost UI for the Popup */
 .modal {
     display: none;
     position: fixed;
     z-index: 100;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(88, 71, 56, 0.4); /* Dark brown tint overlay */
-    backdrop-filter: blur(4px); /* Modern blur effect */
+    left: 0; top: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(241, 234, 218, 0.6);
+    backdrop-filter: blur(12px); /* Frost effect */
     overflow-y: auto;
 }
 
 .modal-content {
     background-color: var(--card-bg);
     margin: 40px auto;
-    padding: 70px;
-    width: 90%;
-    max-width: 750px;
+    padding: 50px;
+    width: 85%;
+    max-width: 650px;
     border-radius: 24px;
-    box-shadow: 0 30px 60px rgba(0,0,0,0.3);
-    position: relative;
-    border: 1px solid var(--border);
+    border: 1px solid white;
+    box-shadow: 0 20px 50px rgba(88, 71, 56, 0.2);
 }
 
-.close-button {
-    position: absolute;
-    right: 30px;
-    top: 30px;
-    font-size: 35px;
-    color: var(--muted);
-    cursor: pointer;
-}
-
-/* Modal Typography */
-.recipe-title {
-    font-weight: bold;
-    font-size: 2.8rem;
-    margin-bottom: 15px;
-    text-align: center;
-}
-
-.divider {
-    border-bottom: 1.5px solid var(--accent); /* Standardized line color */
-    width: 60%;
-    margin: 0 auto 40px auto;
-}
-
-.section-label {
-    font-weight: bold; /* Bolded section labels */
-    font-size: 1.2rem;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    color: var(--text-main);
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-.content-text {
-    font-size: 1.05rem;
-    line-height: 1.7;
-    font-weight: normal; /* Smaller/unbolded content */
-    margin-bottom: 25px;
-}
-
-ul, ol {
-    padding-left: 20px;
-}
-
-.notes-area {
-    margin-top: 40px;
-    padding: 25px;
-    background-color: rgba(170, 163, 150, 0.1); /* Subtle box for notes */
-    border-radius: 12px;
-    border-left: 4px solid var(--accent);
-}
-
-.pdf-block {
-    display: block;
-    margin-top: 50px;
-    padding: 20px;
-    background-color: var(--text-main);
-    color: var(--card-bg);
-    text-align: center;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 12px;
-    transition: transform 0.2s;
-}
-
-.pdf-block:hover {
-    transform: scale(1.02);
-    background-color: #3e3121;
-}
+/* Standardized recipe list items */
+.recipe-item h3 { font-size: 1.4rem; margin: 0; font-weight: bold; }
+.recipe-item p { font-style: italic; color: var(--accent); margin-top: 4px; }
