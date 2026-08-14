@@ -1,194 +1,221 @@
 :root {
-    --primary-bg: #E5DED0;    /* Warm Clay Base */
-    --surface: #F1EADA;       /* Organic Light Beige */
-    --accent: #B59E7D;        /* Muted Earth Tan */
-    --text: #584738;          /* Charcoal Brown */
-    --border-soft: #CEC1A8;   /* Sandstone */
-    --shadow-color: rgba(88, 71, 56, 0.08);
+    /* Multi-layered Japandi Palette */
+    --base-bg: #F4F1EA;       /* Warm Linen */
+    --paper-light: #FAF9F6;   /* Rice Paper */
+    --paper-depth: #F1EADA;   /* Pressed Oat */
+    --accent-oak: #B59E7D;    /* Warm Oakwood */
+    --accent-clay: #CB997E;   /* Terracotta Accent */
+    --accent-sage: #A5A58D;   /* Organic Sage Detail */
+    --text-rich: #43392F;     /* Deep Cocoa */
+    --glass-border: rgba(255, 255, 255, 0.6);
 }
 
 body {
-    background-color: var(--primary-bg);
+    background: radial-gradient(circle at 10% 20%, #F4F1EA 0%, #E9E2D5 100%);
     margin: 0;
-    padding: 0;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    color: var(--text);
-    /* Soft vignette effect for depth */
-    background: radial-gradient(circle at center, #F1EADA 0%, #E5DED0 100%);
+    color: var(--text-rich);
     min-height: 100vh;
 }
 
 .background-wrapper {
     display: flex;
     justify-content: center;
-    padding: 80px 20px;
+    padding: 60px 20px;
 }
 
 .page-container {
-    background-color: transparent; /* Elements float directly on the vignette */
     width: 100%;
-    max-width: 900px;
+    max-width: 800px;
 }
 
-/* Header & Search */
-header {
+/* --- Header Section --- */
+header h1 {
+    font-family: 'Georgia', serif; /* Serif for titles adds family warmth */
+    font-size: 3.2rem;
+    font-weight: normal;
     text-align: center;
-    margin-bottom: 60px;
-}
-
-h1 {
-    font-weight: 300; /* Light/Thin Helvetica for Japandi look */
-    font-size: 4rem;
-    letter-spacing: -2px;
-    margin: 0;
+    color: var(--text-rich);
+    margin-bottom: 5px;
 }
 
 .subtitle {
-    font-size: 1.1rem;
-    color: var(--accent);
-    margin-top: 10px;
-    font-weight: 400;
+    text-align: center;
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--accent-sage);
+    margin-bottom: 40px;
 }
 
+/* --- Modern Floating Search --- */
 #searchInput {
     width: 100%;
-    max-width: 500px;
-    padding: 15px 25px;
-    margin-top: 40px;
-    border: 1px solid var(--border-soft);
-    border-radius: 40px;
-    background: rgba(255, 255, 255, 0.4);
-    backdrop-filter: blur(5px);
-    font-family: 'Helvetica', sans-serif;
+    padding: 18px 30px;
+    border: 1px solid var(--glass-border);
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
     font-size: 1rem;
-    color: var(--text);
+    box-shadow: 0 10px 30px rgba(181, 158, 125, 0.15);
     outline: none;
-    transition: all 0.4s ease;
-    box-shadow: 0 4px 15px var(--shadow-color);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 #searchInput:focus {
-    background: rgba(255, 255, 255, 0.8);
-    width: 100%; /* Expands slightly on focus */
-    box-shadow: 0 10px 25px var(--shadow-color);
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 15px 40px rgba(181, 158, 125, 0.25);
+    transform: translateY(-2px);
 }
 
-/* Tab Bar */
+/* --- Category Tabs (Organic Ceramic Style) --- */
 .category-wrapper {
-    margin: 40px 0;
-}
-
-.tabs-list {
-    display: flex;
+    margin: 30px 0;
     overflow-x: auto;
-    gap: 10px;
+    white-space: nowrap;
     padding: 10px 0;
     scrollbar-width: none;
 }
 
 .tab {
-    flex: 0 0 auto;
-    padding: 10px 22px;
-    border-radius: 30px;
-    background: var(--surface);
-    border: 1px solid var(--border-soft);
-    color: var(--text);
-    font-size: 0.9rem;
+    display: inline-block;
+    padding: 10px 24px;
+    margin-right: 12px;
+    border-radius: 12px;
+    background: var(--paper-depth);
+    border: 1px solid transparent;
     cursor: pointer;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    font-size: 0.85rem;
+    font-weight: 600;
+    transition: all 0.3s;
+    color: var(--text-rich);
 }
 
 .tab:hover {
     background: #fff;
-    transform: translateY(-2px);
+    color: var(--accent-clay);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
 }
 
 .tab.active {
-    background: var(--text);
-    color: var(--surface);
-    border-color: var(--text);
+    background: var(--text-rich);
+    color: #fff;
+    box-shadow: 0 8px 20px rgba(67, 57, 47, 0.2);
 }
 
-/* Recipe Grid & Hover Effect */
+/* --- Recipe Card Items --- */
 .recipe-grid {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
 }
 
 .recipe-item {
-    background: var(--surface);
+    background: var(--paper-light);
     padding: 30px;
-    border-radius: 20px;
-    border: 1px solid transparent;
+    border-radius: 24px;
+    border: 1px solid var(--glass-border);
+    position: relative;
     cursor: pointer;
-    transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1); /* Ultra-smooth */
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.02);
+    overflow: hidden;
 }
 
+/* The hover "pop" effect you requested */
 .recipe-item:hover {
-    transform: scale(1.03); /* Floating pop-out effect */
-    background: #fff;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05);
-    border: 1px solid var(--border-soft);
+    transform: scale(1.02) translateY(-5px);
+    box-shadow: 0 25px 50px rgba(181, 158, 125, 0.2);
+    background: #ffffff;
 }
 
 .recipe-item h3 {
     margin: 0;
-    font-size: 1.6rem;
-    font-weight: 500;
+    font-family: 'Georgia', serif;
+    font-size: 1.5rem;
 }
 
 .recipe-item p {
-    margin-top: 8px;
-    font-size: 0.9rem;
-    color: var(--accent);
-    letter-spacing: 1px;
+    color: var(--accent-oak);
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin-top: 10px;
     text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
-/* Modal UI */
+/* --- The Recipe Card Popup (The Masterpiece) --- */
 .modal {
     display: none;
     position: fixed;
     z-index: 1000;
-    left: 0; top: 0;
-    width: 100%; height: 100%;
-    background-color: rgba(88, 71, 56, 0.1);
-    backdrop-filter: blur(20px); /* Heavy modern frost */
+    left: 0; top: 0; width: 100%; height: 100%;
+    background: rgba(67, 57, 47, 0.15);
+    backdrop-filter: blur(25px); /* Heavy frost effect */
 }
 
 .modal-content {
-    background: var(--surface);
-    margin: 5vh auto;
-    padding: 60px;
-    width: 85%;
-    max-width: 700px;
-    border-radius: 30px;
-    border: 1px solid white;
-    box-shadow: 0 40px 100px rgba(0, 0, 0, 0.15);
-    position: relative;
-    max-height: 80vh;
+    background: #FDFCFB;
+    margin: 4vh auto;
+    padding: 50px;
+    width: 90%;
+    max-width: 680px;
+    border-radius: 40px;
+    border: 1px solid #fff;
+    box-shadow: 0 50px 100px rgba(0,0,0,0.12);
+    max-height: 85vh;
     overflow-y: auto;
+    position: relative;
 }
 
-.recipe-title { font-size: 3rem; letter-spacing: -1.5px; font-weight: 300; }
-.section-label { font-weight: bold; margin-top: 35px; color: var(--accent); }
-.content-text { line-height: 1.8; font-weight: 400; font-size: 1.1rem; }
-.notes-area { border-top: 1px solid var(--border-soft); margin-top: 40px; padding-top: 20px; font-style: italic; }
+.modal-content h1 {
+    font-family: 'Georgia', serif;
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+    border-left: 5px solid var(--accent-clay); /* Organic pop of color */
+    padding-left: 20px;
+}
+
+.section-label {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 2px;
+    color: var(--accent-sage);
+    margin-top: 40px;
+    border-bottom: 1px solid var(--paper-depth);
+    padding-bottom: 8px;
+}
+
+.content-text {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-top: 15px;
+}
+
+.notes-area {
+    background: var(--paper-depth);
+    padding: 25px;
+    border-radius: 20px;
+    margin-top: 40px;
+    font-style: italic;
+    font-family: 'Georgia', serif;
+}
 
 .pdf-block {
-    display: inline-block;
+    display: block;
     margin-top: 50px;
-    padding: 15px 35px;
-    background: var(--text);
-    color: white;
+    padding: 18px;
+    background: var(--text-rich);
+    color: #fff;
+    text-align: center;
+    border-radius: 15px;
     text-decoration: none;
-    border-radius: 40px;
-    font-size: 0.9rem;
+    font-weight: 600;
     transition: all 0.3s;
 }
 
-.pdf-block:hover { transform: translateY(-3px); opacity: 0.9; }
-
-/* Hide scrollbar for tabs */
-.tabs-list::-webkit-scrollbar { display: none; }
+.pdf-block:hover {
+    background: var(--accent-clay);
+    transform: translateY(-2px);
+}
