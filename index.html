@@ -15,10 +15,16 @@
             <div class="subtitle">An archive of Nancy Dawson's Recipe Index Cards</div>
             
             <div class="search-container">
-                <input type="text" id="searchInput" placeholder="Search by name, ingredients, or notes..." onkeyup="searchRecipes()">
+                <!-- Added focus/blur JS directly to clear placeholder -->
+                <input type="text" id="searchInput" 
+                    placeholder="Search by name, ingredients, or notes..." 
+                    onkeyup="searchRecipes()"
+                    onfocus="this.placeholder = ''" 
+                    onblur="this.placeholder = 'Search by name, ingredients, or notes...'">
             </div>
         </header>
 
+        <!-- Container for horizontal scrolling -->
         <nav class="category-wrapper" id="categoryTabs"></nav>
 
         <main id="recipeList" class="recipe-grid"></main>
@@ -26,8 +32,9 @@
 </div>
 
 <div id="recipeModal" class="modal">
+    <!-- Inner-scroll occurs inside .modal-content -->
     <div class="modal-content">
-        <button onclick="closeModal()" style="position:absolute; right:35px; top:35px; background:none; border:none; cursor:pointer; font-size:1.5rem; opacity:0.3;">✕</button>
+        <button onclick="closeModal()" class="close-btn">✕</button>
         <div id="modalBody"></div>
     </div>
 </div>
