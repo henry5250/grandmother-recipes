@@ -8,37 +8,33 @@
 </head>
 <body>
 
-<div class="background-wrapper">
     <div class="page-container">
         <header>
             <h1>Granny's Recipe Archive</h1>
-            <div class="subtitle">An archive of Nancy Dawson's Recipe Index Cards</div>
+            <div class="subtitle">AN ARCHIVE OF NANCY DAWSON'S RECIPE INDEX CARDS</div>
             
-            <div class="search-container">
-                <!-- Added focus/blur JS directly to clear placeholder -->
+            <div class="search-wrapper">
                 <input type="text" id="searchInput" 
-                    placeholder="Search by name, ingredients, or notes..." 
-                    onkeyup="searchRecipes()"
-                    onfocus="this.placeholder = ''" 
-                    onblur="this.placeholder = 'Search by name, ingredients, or notes...'">
+                       placeholder="Search by name, ingredients, or notes..." 
+                       onkeyup="searchRecipes()"
+                       onfocus="this.placeholder = ''" 
+                       onblur="this.placeholder = 'Search by name, ingredients, or notes...'">
             </div>
         </header>
 
-        <!-- Container for horizontal scrolling -->
         <nav class="category-wrapper" id="categoryTabs"></nav>
 
         <main id="recipeList" class="recipe-grid"></main>
     </div>
-</div>
 
-<div id="recipeModal" class="modal">
-    <!-- Inner-scroll occurs inside .modal-content -->
-    <div class="modal-content">
-        <button onclick="closeModal()" class="close-btn">✕</button>
-        <div id="modalBody"></div>
+    <!-- Hidden UI Components -->
+    <div id="recipeModal" class="modal">
+        <div class="modal-content">
+            <button onclick="closeModal()" style="position:absolute; right:35px; top:35px; background:none; border:none; font-size:1.5rem; opacity:0.2; cursor:pointer;">✕</button>
+            <div id="modalBody"></div>
+        </div>
     </div>
-</div>
 
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
