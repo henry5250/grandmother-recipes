@@ -3,40 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grandmother's Recipe Archive</title>
+    <title>Family Recipe Archive</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro&display=swap" rel="stylesheet">
 </head>
 <body>
 
 <div class="background-wrapper">
     <div class="page-container">
         <header>
-            <h1>Recipe Archive</h1>
-            <p class="subtitle">Search by dish, ingredient, or family member</p>
-            <input type="text" id="searchInput" placeholder="Search the archive..." onkeyup="searchRecipes()">
+            <h1>Granny's Recipe Archive</h1>
+            <p class="subtitle">An archive of Nancy Dawson's Index Cards</p>
+            <input type="text" id="searchInput" placeholder="Search dish, ingredients, or notes..." onkeyup="searchRecipes()">
         </header>
 
-        <!-- New Scrollable Tabs Section -->
         <div class="category-wrapper">
-            <div id="categoryTabs" class="tabs-list">
-                <!-- Tabs will be injected here by JavaScript -->
-            </div>
+            <div id="categoryTabs" class="tabs-list"></div>
         </div>
 
-        <div id="recipeList" class="recipe-grid">
-            <!-- Alphabetized results will appear here -->
-        </div>
+        <div id="recipeList" class="recipe-grid"></div>
     </div>
 </div>
 
-<!-- The Recipe Card Popup -->
 <div id="recipeModal" class="modal">
     <div class="modal-content">
-        <span class="close-button" onclick="closeModal()">&times;</span>
-        <div id="modalBody">
-            <!-- Recipe details will be injected here -->
-        </div>
+        <span onclick="closeModal()" style="position:absolute; right:30px; top:25px; cursor:pointer; font-size:1.5rem;">✕</span>
+        <div id="modalBody"></div>
     </div>
 </div>
 
