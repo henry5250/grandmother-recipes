@@ -5016,7 +5016,7 @@
   },
   {
     "id": 204,
-    "title": "Managira's Sauce for Chicken",
+    "title": "Manakin's Sauce for Chicken",
     "category": "Misc",
     "ingredients": [
       "1/2 c. butter",
@@ -6784,10 +6784,21 @@
   },
   {
     "id": 277,
-    "title": "Scanned_aug_11,_2026_at_3_52_13pm",
+    "title": "Goat Cheese Torta",
     "category": "Misc",
-    "ingredients": [],
-    "directions": [],
+    "ingredients": ["1 (10.5-ounce) package goat cheese"
+      "1 (8-ounce) package cream cheese", 
+      "softened 4 garlic cloves", 
+      "minced 2 teaspoon salt /a teaspoon pepper",
+      "1/2 to 3/4 cup Garden Pesto Garnishes",
+      "fresh basil sprigs", 
+      "pecans", 
+      "pine nuts French baguette slices"],
+    "directions": ["PROCESS first 5 ingredients in a blender or food processor until smooth, stopping to scrape down sides.",
+      "LINE a 2- or 3-cup glass bowl with plastic wrap, allowing 3 inches to hang over sides.",
+      "SPREAD half of cheese mixture into bowl; top evenly with 1/2 to 3/4 cup Garden Pesto.",
+      "Top with remaining half of cheese mixture. Cover and chill 8 hours.",
+      "INVERT chilled torta onto a serving platter; remove plastic wrap. Garnish, if desired. Serve with baguette slices."],
     "notes": "Imported from archive",
     "pdfLink": "pdfs/Scanned_Aug_11,_2026_at_3_52_13PM.pdf"
   },
