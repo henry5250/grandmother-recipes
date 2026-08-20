@@ -38,12 +38,16 @@ function searchRecipes() {
 
 function displayRecipes(recipes) {
     const list = document.getElementById('recipeList');
-    list.innerHTML = recipes.map(r => `
-        <div class="recipe-item" onclick="openRecipe('${r.title.replace(/'/g, "\\'")}')">
-            <h3>${r.title}</h3>
-            <p>${r.category}</p>
-        </div>
-    `).join('');
+    list.innerHTML = recipes.map(r => {
+        // Cleanly escape both single and double quotes for the inline onclick attribute
+        const escapedTitle = r.title.replace(/'/g, "\\'").replace(/"/g, "&quot;");
+        return `
+            <div class="recipe-item" onclick="openRecipe('${escapedTitle}')">
+                <h3>${r.title}</h3>
+                <p>${r.category}</p>
+            </div>
+        `;
+    }).join('');
 }
 
 function openRecipe(title) {
