@@ -6769,8 +6769,7 @@
       "1 teaspoon Dijon mustard",
       "1/4 teaspoon ground pepper",
       "1/2 teaspoon kosher salt",
-      "1/2 cup extra virgin olive oil",
-      "Additional salt and pepper (to taste)"
+      "1/2 cup extra virgin olive oil"
     ],
     "directions": [
       "Thinly slice the shallot and chop fine.",
@@ -6782,46 +6781,27 @@
     "notes": "Makes 1 cup. Original recipe noted 3/4 teaspoon of salt, but includes an annotation to use 1/2 teaspoon.",
     "pdfLink": "pdfs/Sandy D'Amato's - Salad Dressing.pdf"
   },
- {
-  "id": 277,
-  "title": "Goat Cheese Torta",
-  "category": "Misc",
-  "ingredients": [
-    "1 (10.5-ounce) package goat cheese",
-    "1 (8-ounce) package cream cheese, softened",
-    "4 garlic cloves, minced",
-    "2 teaspoon salt, 1/2 teaspoon pepper",
-    "1/2 to 3/4 cup Garden Pesto",
-    "Garnishes: fresh basil sprigs, pecans, pine nuts",
-    "French baguette slices"
-  ],
-  "directions": [
-    "PROCESS first 5 ingredients in a blender or food processor until smooth, stopping to scrape down sides.",
-    "LINE a 2- or 3-cup glass bowl with plastic wrap, allowing 3 inches to hang over sides.",
-    "SPREAD half of cheese mixture into bowl; top evenly with 1/2 to 3/4 cup Garden Pesto.",
-    "Top with remaining half of cheese mixture. Cover and chill 8 hours.",
-    "INVERT chilled torta onto a serving platter; remove plastic wrap. Garnish, if desired. Serve with baguette slices."
-  ],
-  "notes": "Imported from archive",
-  "pdfLink": "pdfs/Scanned_Aug_11,_2026_at_3_52_13PM.pdf"
-},
   {
     "id": 277,
     "title": "Goat Cheese Torta",
     "category": "Misc",
-    "ingredients": ["1 (10.5-ounce) package goat cheese"
-      "1 (8-ounce) package cream cheese", 
-      "softened 4 garlic cloves", 
-      "minced 2 teaspoon salt /a teaspoon pepper",
-      "1/2 to 3/4 cup Garden Pesto Garnishes",
-      "fresh basil sprigs", 
-      "pecans", 
-      "pine nuts French baguette slices"],
-    "directions": ["PROCESS first 5 ingredients in a blender or food processor until smooth, stopping to scrape down sides.",
-      "LINE a 2- or 3-cup glass bowl with plastic wrap, allowing 3 inches to hang over sides.",
-      "SPREAD half of cheese mixture into bowl; top evenly with 1/2 to 3/4 cup Garden Pesto.",
+    "ingredients": [
+      "1 (10.5-ounce) package goat cheese",
+      "1 (8-ounce) package cream cheese, softened",
+      "4 garlic cloves, minced",
+      "2 teaspoon salt",
+      "1/2 teaspoon pepper",
+      "1/2 to 3/4 cup Garden Pesto",
+      "Garnishes: fresh basil sprigs, pecans, pine nuts",
+      "French baguette slices"
+    ],
+    "directions": [
+      "PROCESS first 5 ingredients in a blender or food processor until smooth.",
+      "LINE a 2- or 3-cup glass bowl with plastic wrap.",
+      "SPREAD half of cheese mixture into bowl; top with Pesto.",
       "Top with remaining half of cheese mixture. Cover and chill 8 hours.",
-      "INVERT chilled torta onto a serving platter; remove plastic wrap. Garnish, if desired. Serve with baguette slices."],
+      "INVERT onto a platter and serve with baguette slices."
+    ],
     "notes": "Imported from archive",
     "pdfLink": "pdfs/Scanned_Aug_11,_2026_at_3_52_13PM.pdf"
   },
