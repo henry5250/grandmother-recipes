@@ -1,13 +1,18 @@
 let allRecipes = [];
 let currentCategory = 'All';
 
+// Load the data from recipes.json
 fetch('recipes.json')
-    .then(res => res.json())
+    .then(res => {
+        if (!res.ok) throw new Error("Could not load recipes.json");
+        return res.json();
+    })
     .then(data => {
         allRecipes = data.sort((a, b) => a.title.localeCompare(b.title));
         setupCategories();
         displayRecipes(allRecipes);
-    });
+    })
+    .catch(err => console.error("Error loading recipes:", err));
 
 function setupCategories() {
     const nav = document.getElementById('categoryTabs');
@@ -38,11 +43,10 @@ function searchRecipes() {
 
 function displayRecipes(recipes) {
     const list = document.getElementById('recipeList');
-    list.innerHTML = recipes.map(r => {
-        // Cleanly escape both single and double quotes for the inline onclick attribute
-        const escapedTitle = r.title.replace(/'/g, "\\'").replace(/"/g, "&quot;");
+    list.innerHTML = recipes.map((r, index) => {
+        // Use the INDEX of the array instead of the title to avoid "quoting" errors
         return `
-            <div class="recipe-item" onclick="openRecipe('${escapedTitle}')">
+            <div class="recipe-item" onclick="openRecipe(${index})">
                 <h3>${r.title}</h3>
                 <p>${r.category}</p>
             </div>
@@ -50,11 +54,12 @@ function displayRecipes(recipes) {
     }).join('');
 }
 
-function openRecipe(title) {
-    const recipe = allRecipes.find(r => r.title === title);
+function openRecipe(index) {
+    // Look up by index in the filtered list if needed, or better, pass the recipe object
+    // For simplicity, we find it by matching title from the current list
+    const recipe = allRecipes[index];
     const body = document.getElementById('modalBody');
 
-    // UX Decision: Check if notes exist. Only inject the div if content is present.
     const hasNotes = recipe.notes && recipe.notes.trim().length > 0;
     const notesHtml = hasNotes 
         ? `<div class="notes-container">
@@ -78,7 +83,7 @@ function openRecipe(title) {
     `;
     
     document.getElementById('recipeModal').style.display = "block";
-    document.body.style.overflow = "hidden"; // Prevent background scroll
+    document.body.style.overflow = "hidden";
 }
 
 function closeModal() {
@@ -86,5 +91,4 @@ function closeModal() {
     document.body.style.overflow = "auto";
 }
 
-// Global click-out to close
 window.onclick = e => { if(e.target.id == 'recipeModal') closeModal(); }
