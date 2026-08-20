@@ -55,18 +55,43 @@ function displayRecipes(recipes) {
 }
 
 function openRecipe(index) {
-    // Look up by index in the filtered list if needed, or better, pass the recipe object
-    // For simplicity, we find it by matching title from the current list
     const recipe = allRecipes[index];
     const body = document.getElementById('modalBody');
 
-    const hasNotes = recipe.notes && recipe.notes.trim().length > 0;
-    const notesHtml = hasNotes 
+    // SMART NOTES CHECK: This prevents the site from crashing if notes are formatted weirdly
+    let notesText = "";
+    if (recipe.notes) {
+        if (Array.isArray(recipe.notes)) {
+            notesText = recipe.notes.join(" "); // If it's a list, turn it into a paragraph
+        } else {
+            notesText = recipe.notes; // If it's already a string, use it
+        }
+    }
+
+    const notesHtml = (notesText.trim().length > 0) 
         ? `<div class="notes-container">
             <span style="display:block; text-transform:uppercase; font-size:0.7rem; font-weight:bold; color:var(--clay); margin-bottom:10px; font-family:sans-serif; font-style:normal; letter-spacing:1px;">Personal Notes</span>
-            ${recipe.notes}
+            ${notesText}
            </div>` 
         : "";
+
+    body.innerHTML = `
+        <h1>${recipe.title}</h1>
+        <div class="section-label">Ingredients</div>
+        <div class="content-text">
+            <ul>${recipe.ingredients.map(i => `<li>${i}</li>`).join('')}</ul>
+        </div>
+        <div class="section-label">Directions</div>
+        <div class="content-text">
+            <ol>${recipe.directions.map(d => `<li>${d}</li>`).join('')}</ol>
+        </div>
+        ${notesHtml}
+        <a href="${recipe.pdfLink}" target="_blank" class="pdf-btn">View the Original Scanned Recipe</a>
+    `;
+    
+    document.getElementById('recipeModal').style.display = "block";
+    document.body.style.overflow = "hidden";
+}
 
     body.innerHTML = `
         <h1>${recipe.title}</h1>
